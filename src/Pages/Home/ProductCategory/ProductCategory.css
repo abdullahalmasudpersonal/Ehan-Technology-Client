@@ -1,5 +1,7 @@
 
-
+.pro-category-bg{
+    background: rgb(235, 235, 240);
+}
 .catagory-head{
     padding: 20px;
     display: flex;
@@ -14,6 +16,7 @@
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 .category-hr{
+    margin-top: 0;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
@@ -35,6 +38,61 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media screen and (min-width:50px) and (max-width:359px){
+    .pro-category-dev{
+        height: 150px;
+        width: 120px;
+        padding: 10px;
+        border-radius: 10px;
+        background: rgb(228, 229, 236);
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    }
+    .pro-category-flex{
+        display: grid;
+        padding: 20px 70px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+} 
+@media screen and (min-width:360px) {
+    .pro-category-flex{
+        display: grid;
+        padding: 20px 70px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+} 
+@media screen and (min-width:500px) {
+    .pro-category-flex{
+        display: grid;
+        padding: 20px 70px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+} 
+@media screen and (min-width:670px) {
+    .pro-category-flex{
+        display: grid;
+        padding: 20px 70px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+} 
+@media screen and (min-width:830px) {
+    .pro-category-flex{
+        display: grid;
+        padding: 20px 70px;
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+@media screen and (min-width:1000px) {
+    .pro-category-flex{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+@media screen and (min-width:1200px) {
+    .pro-category-flex{
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+    }
 }
 @media screen and (min-width:1400px) {
     .pro-category-flex{
