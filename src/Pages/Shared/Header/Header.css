@@ -1,0 +1,31 @@
+.header-top {
+    background: rgb(14, 0, 90);
+}
+.header-top-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 20px;
+}
+.search-ber{
+    width: 750px;
+}
+.cardProfile{
+    display: flex;
+    justify-content: center;
+    grid-gap: 20px;
+    align-items: center;
+}
+.navber-bg {
+    background: rgb(237, 242, 255);
+}
+@media screen and (max-width:1199px) {
+    .header-top {
+        display: none;
+    }
+}
+@media screen and (min-width:1200px) {
+    .header-none {
+        display: none;
+    }
+}
