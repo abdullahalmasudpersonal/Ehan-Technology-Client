@@ -1,0 +1,62 @@
+[
+    {
+        "_id":"564511s2d",
+        "Model":"Hikvision DS-2CE56D0T-IRPF (2.8mm) (2.0MP) Dome CC Camera",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/medium/hikvision-ds-2ce56d0t-irpf-20mp-28mm-hd1080p-11547447618.webp",
+        "Price":"1600",
+        "Sensor": "1MP CMOS Image Sensor ",
+        "Lens": "3.6mm" ,
+        "Facilities1": "Usage Indoor",
+        "Facilities2": "IR Range Up to 20m",
+        "Facilities3": "Mega Pixels 2.0MP",
+        "Facilities4": "Night Vision Yes"
+    },
+    {
+        "_id":"564511s2d",
+        "Model":"HikVision DS-2CE16D0T-IRPF (3.6mm) (2.0MP) Bullet CC Camera",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/medium/hikvision-ds-2ce16d0t-irpf36mm-20mp-1080p-11547447407.webp",
+        "Price":"1600",
+        "Sensor": "1MP CMOS Image Sensor ",
+        "Lens": "3.6mm" ,
+        "Facilities1": "Usage Indoor",
+        "Facilities2": "IR Range Up to 20m",
+        "Facilities3": "Mega Pixels 2.0MP",
+        "Facilities4": "Night Vision Yes"
+    },
+    {
+        "_id":"564511s2d",
+        "Model":"Hikvision DS-2CE56C0T-IT3F (1.0 MP) Dome CC Camera",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/medium/hikvision-ds-2ce56c0t-it3f-10-mp-hd720p-ir-40m-11547449319.webp",
+        "Price":"1600",
+        "Sensor": "1MP CMOS Image Sensor ",
+        "Lens": "3.6mm" ,
+        "Facilities1": "Usage Indoor",
+        "Facilities2": "IR Range Up to 20m",
+        "Facilities3": "Mega Pixels 2.0MP",
+        "Facilities4": "Night Vision Yes"
+    },
+    {
+        "_id":"564511s2d",
+        "Model":"Hikvision DS-2CE56D0T-IP-ECO (2.8mm) (2.0MP) Dome CC Camera",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/medium/hikvision-ds-2ce56d0t-ip-eco-28mm-20mp-dome-21578822168.webp",
+        "Price":"1600",
+        "Sensor": "1MP CMOS Image Sensor ",
+        "Lens": "3.6mm" ,
+        "Facilities1": "Usage Indoor",
+        "Facilities2": "IR Range Up to 20m",
+        "Facilities3": "Mega Pixels 2.0MP",
+        "Facilities4": "Night Vision Yes"
+    },
+    {
+        "_id":"564511s2d",
+        "Model":"Hikvision DS-2CE16H0T-ITPF (5MP) Bullet CC Camera",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/medium/hikvision-ds-2ce16h0t-itpf-5mp-bullet-cc-11547452622.webp",
+        "Price":"1600",
+        "Sensor": "1MP CMOS Image Sensor ",
+        "Lens": "3.6mm" ,
+        "Facilities1": "Usage Indoor",
+        "Facilities2": "IR Range Up to 20m",
+        "Facilities3": "Mega Pixels 2.0MP",
+        "Facilities4": "Night Vision Yes"
+    }
+]

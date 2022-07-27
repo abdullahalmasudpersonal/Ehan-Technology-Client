@@ -4,7 +4,7 @@ import logoName from '../../../assets/img/logo/logo&name.png';
 import account from '../../../assets/img/profile.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart, faCaretRight } from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -79,12 +79,24 @@ const Header = () => {
                                 </div>
                             </li>
 
-                            <li class="nav-item fw-bold">
-                                <a class="nav-link disabled">Laptop</a>
+                            <li class="dropdown nav-item ">
+                                <Link style={{ textDecoration: 'none' }} to='/laptops'>
+                                    <button class="dropbtn nav-link fw-bold">Laptop</button>
+                                </Link>
+                                <div class="dropdown-content">
+                                    <Link to='/laptops/allLaptops'>
+                                        <a className='' href="#">All Laptops</a>
+                                    </Link>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
+                                </div>
                             </li>
 
+
                             <li class="nav-item fw-bold">
-                                <a class="nav-link disabled">Monitor</a>
+                                <Link style={{ textDecoration: 'none' }} to='/monitors'>
+                                    <button class="dropbtn nav-link fw-bold">Monitor</button>
+                                </Link>
                             </li>
                             <li class="nav-item fw-bold">
                                 <a class="nav-link disabled">Camera</a>
@@ -103,18 +115,21 @@ const Header = () => {
                                     <button class="dropbtn nav-link fw-bold">Security</button>
                                 </Link>
 
+
                                 <div class="dropdown-content">
 
                                     <li class="dropdown2">
-                                        <Link to='/security/ccCamera'>
+                                        <Link to='/security-cc-camera'>
                                             <a className=''>Cc Camera
-                                            <FontAwesomeIcon className='dropdownCartRight' icon={faCaretRight} />
+                                                <FontAwesomeIcon className='dropdownCartRight' icon={faCaretRight} />
                                             </a>
-                                            
                                         </Link>
                                         <div class="dropdown-content2">
-                                            <a href="#">Masud</a>
-                                            <a href="#">Masud 2</a>
+                                            <Link to='/security-cc-camera-hikvisions'>< >HikVision</></Link>
+                                            <Link to='/security/ccCamera/hikvisions'>< >Dahua</></Link>
+                                            <Link to='/security/ccCamera/hikvisions'>< >TVT</></Link>
+                                            <Link to='/security/ccCamera/hikvisions'>< >Jovision</></Link>
+                                            <Link to='/security/ccCamera/hikvisions'>< >Armor</></Link>
                                         </div>
                                     </li>
 
@@ -145,6 +160,7 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
+            <Outlet />
         </>
     );
 };
