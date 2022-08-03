@@ -1,0 +1,31 @@
+
+ .hikvision-detail-dev-main{
+    padding: 20px 0;
+    grid-gap: 7px;
+    display: flex;
+} 
+.hikvision-detail-dev1{
+    height: 600px;
+    width: 600px;
+    border: 2px solid blue;
+    background-color: rgb(255, 255, 255);
+}
+ .hikvision-detail-dev2{
+    height: 600px;
+    width: 696px;
+    padding: 10px;
+    border: 2px solid rgb(33, 73, 1);
+    background-color: rgb(248, 246, 244);
+} 
+.input-group .input{
+    width: 50px;
+}
+
+/* @media screen and (min-width:1359px) {
+    .hikvision-detail-dev-main{
+        padding: 20px 0;
+        grid-gap: 7px;
+        display: flex;
+    }
+}
+ */

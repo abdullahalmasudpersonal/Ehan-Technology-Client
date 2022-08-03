@@ -1,0 +1,33 @@
+.homeProductBg {
+    background-color: rgb(235, 235, 240);
+}
+
+/* start product home heading css */
+.homePorductHeading {
+    padding: 5px 10px;
+    border-radius: 50px;
+    width: 70%;
+    background: rgb(228, 229, 236);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+@media screen and (max-width:430px) {
+    .homePorductHeading {
+        width: 95%;
+    }
+}
+@media screen and (max-width:395px) {
+    .homePorductHeading {
+        width: 100%;
+    }
+}
+@media screen and (min-width:431px) and (max-width:500px) {
+    .homePorductHeading {
+        width: 85%;
+    }
+}
+@media screen and (min-width:800px) {
+    .homePorductHeading {
+        width: 50%;
+    }
+}
+/* end product home heading css */

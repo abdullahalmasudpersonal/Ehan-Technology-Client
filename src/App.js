@@ -11,6 +11,7 @@ import Hp from './Pages/Monitors/Hp/Hp';
 import Monitors from './Pages/Monitors/Monitors/Monitors';
 import CcCamera from './Pages/Security/CcCamera/CcCamera/CcCamera';
 import Hikvisions from './Pages/Security/CcCamera/CcCamera/Hikvisions/Hikvisions';
+import HikvisionsBuyNow from './Pages/Security/CcCamera/CcCamera/Hikvisions/HikvisionsBuyNow/HikvisionsBuyNow';
 import Security from './Pages/Security/Security/Security';
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
@@ -33,7 +34,8 @@ function App() {
         </Route>
         <Route path='/security' element={<Security />} />
         <Route path='/security-cc-camera' element={<CcCamera />} />
-        <Route path='/security-cc-camera-hikvisions' element={<Hikvisions />} />
+        <Route path='/hikvisions' element={<Hikvisions />} />
+        <Route path='/hikvisions/:hikvisionId' element={<HikvisionsBuyNow />} />
       </Routes>
       <Footer />
     </div>

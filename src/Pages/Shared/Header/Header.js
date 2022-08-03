@@ -120,12 +120,77 @@ const Header = () => {
 
                                     <li class="dropdown2">
                                         <Link to='/security-cc-camera'>
-                                            <a className=''>Cc Camera
-                                                <FontAwesomeIcon className='dropdownCartRight' icon={faCaretRight} />
-                                            </a>
+                                                <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Cc Camera </a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
                                         </Link>
                                         <div class="dropdown-content2">
-                                            <Link to='/security-cc-camera-hikvisions'>< >HikVision</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                            <Link to='/security/ccCamera/hikvisions'>< >Dahua</></Link>
+                                            <Link to='/security/ccCamera/hikvisions'>< >TVT</></Link>
+                                            <Link to='/security/ccCamera/hikvisions'>< >Jovision</></Link>
+                                            <Link to='/security/ccCamera/hikvisions'>< >Armor</></Link>
+                                        </div>
+                                    </li>
+
+                                    <li class="dropdown2">
+                                        <Link to='/security-cc-camera'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>IP Camera </a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                            <Link to='/security/ccCamera/hikvisions'>< >Dahua</></Link>
+                                            <Link to='/security/ccCamera/hikvisions'>< >TVT</></Link>
+                                            <Link to='/security/ccCamera/hikvisions'>< >Jovision</></Link>
+                                            <Link to='/security/ccCamera/hikvisions'>< >Armor</></Link>
+                                        </div>
+                                    </li>
+
+                                    <li class="dropdown2">
+                                        <Link to='/security-cc-camera'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>DVR</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                            <Link to='/security/ccCamera/hikvisions'>< >Dahua</></Link>
+                                            <Link to='/security/ccCamera/hikvisions'>< >TVT</></Link>
+                                            <Link to='/security/ccCamera/hikvisions'>< >Jovision</></Link>
+                                            <Link to='/security/ccCamera/hikvisions'>< >Armor</></Link>
+                                        </div>
+                                    </li>
+
+                                    <li class="dropdown2">
+                                        <Link to='/security-cc-camera'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>XVR</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                            <Link to='/security/ccCamera/hikvisions'>< >Dahua</></Link>
+                                            <Link to='/security/ccCamera/hikvisions'>< >TVT</></Link>
+                                            <Link to='/security/ccCamera/hikvisions'>< >Jovision</></Link>
+                                            <Link to='/security/ccCamera/hikvisions'>< >Armor</></Link>
+                                        </div>
+                                    </li>
+
+                                    <li class="dropdown2">
+                                        <Link to='/security-cc-camera'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>NVR</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
                                             <Link to='/security/ccCamera/hikvisions'>< >Dahua</></Link>
                                             <Link to='/security/ccCamera/hikvisions'>< >TVT</></Link>
                                             <Link to='/security/ccCamera/hikvisions'>< >Jovision</></Link>

@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from 'react';
+import useHikvision from '../../../../../Hooks/UseHikvision';
 import Hikvision from './Hikvision/Hikvision';
 import './Hikvisions.css';
 
 const Hikvisions = () => {
-    const [hikvisions, setHikvisions] = useState([]);
+    const [hikvisions, setHikvisions] = useHikvision([]);
 
-    useEffect(() => {
-        fetch('Hikvision.json')
+   /*  useEffect(() => {
+        fetch('http://localhost:5000/hikvisions')
             .then(res => res.json())
             .then(data => setHikvisions(data));
-    }, []);
+    }, []); */
 
     return (
         <div  style={{background:'rgb(215, 219, 228)'}}>
