@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Hikvision from '../../Security/CcCamera/CcCamera/Hikvisions/Hikvision/Hikvision';
+import Hikvision from '../../Security/CcCamera/Hikvisions/Hikvision/Hikvision';
 import './Desktops.css';
 
 const Desktops = () => {

@@ -107,10 +107,89 @@ const Header = () => {
                             <li class="nav-item fw-bold">
                                 <div><a class="nav-link disabled">Office Equipment</a></div>
                             </li>
-                            <li class="nav-item fw-bold">
-                                <a class="nav-link disabled">Accessories</a>
+
+                            <li class="dropdown nav-item">
+                                <Link style={{ textDecoration: 'none' }} to='/accessories'>
+                                    <button class="dropbtn nav-link fw-bold">Accessories</button>
+                                </Link>
+
+                                <div className='dropdown-content'>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/mouse'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Mouse</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/security-cc-camera'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Microphone</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/security-cc-camera'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Pen Drive</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/security-cc-camera'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Webcam</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/security-cc-camera'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Headphone</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                </div>
                             </li>
-                            <li class="dropdown nav-item ">
+
+                            <li class="dropdown nav-item">
                                 <Link style={{ textDecoration: 'none' }} to='/security'>
                                     <button class="dropbtn nav-link fw-bold">Security</button>
                                 </Link>
@@ -120,7 +199,7 @@ const Header = () => {
 
                                     <li class="dropdown2">
                                         <Link to='/security-cc-camera'>
-                                                <div className='d-flex justify-content-between align-items-center'>
+                                            <div className='d-flex justify-content-between align-items-center'>
                                                 <a>Cc Camera </a>
                                                 <FontAwesomeIcon icon={faCaretRight} />
                                             </div>
