@@ -4,7 +4,7 @@ import logoName from '../../../assets/img/logo/logo&name.png';
 import account from '../../../assets/img/profile.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart, faCaretRight } from '@fortawesome/free-solid-svg-icons';
-import { Link, Outlet } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -59,55 +59,421 @@ const Header = () => {
 
                     <div class="collapse navbar-collapse collapse-margin" id="navbarTogglerDemo03">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            {/*  <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li> */}
-                            {/* <li class="nav-item fw-bold">
-                                <a class="nav-link disabled">Dasktop</a>
-                            </li> */}
-
-                            <li class="dropdown nav-item ">
-                                <Link style={{ textDecoration: 'none' }} to='/desktops'>
+                            {/* ------------start Desktops menu--------------- */}
+                            <li class="dropdown nav-item">
+                                <Link style={{ textDecoration: 'none' }} to='/'>
                                     <button class="dropbtn nav-link fw-bold">Desktop</button>
                                 </Link>
-                                <div class="dropdown-content">
-                                    <Link to='/desktops/brandPc'>
-                                        <a className='' href="#">Brand PC</a>
-                                    </Link>
-                                    <a href="#">Link 2</a>
-                                    <a href="#">Link 3</a>
+                                <div className='dropdown-content'>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
                                 </div>
                             </li>
-
-                            <li class="dropdown nav-item ">
-                                <Link style={{ textDecoration: 'none' }} to='/laptops'>
+                            {/* ------------end Desktops menu--------------- */}
+                            {/* ------------start Laptops menu--------------- */}
+                            <li class="dropdown nav-item">
+                                <Link style={{ textDecoration: 'none' }} to='/'>
                                     <button class="dropbtn nav-link fw-bold">Laptop</button>
                                 </Link>
-                                <div class="dropdown-content">
-                                    <Link to='/laptops/allLaptops'>
-                                        <a className='' href="#">All Laptops</a>
-                                    </Link>
-                                    <a href="#">Link 2</a>
-                                    <a href="#">Link 3</a>
+                                <div className='dropdown-content'>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
                                 </div>
                             </li>
-
-
-                            <li class="nav-item fw-bold">
-                                <Link style={{ textDecoration: 'none' }} to='/monitors'>
+                            {/* ------------end Laptops menu--------------- */}
+                            {/* ------------start Monitor menu--------------- */}
+                            <li class="dropdown nav-item">
+                                <Link style={{ textDecoration: 'none' }} to='/'>
                                     <button class="dropbtn nav-link fw-bold">Monitor</button>
                                 </Link>
+                                <div className='dropdown-content'>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                </div>
                             </li>
-                            <li class="nav-item fw-bold">
-                                <a class="nav-link disabled">Camera</a>
+                            {/* ------------end Monitors menu--------------- */}
+                            {/* ------------start component menu--------------- */}
+                            <li class="dropdown nav-item">
+                                <Link style={{ textDecoration: 'none' }} to='/'>
+                                    <button class="dropbtn nav-link fw-bold">Components</button>
+                                </Link>
+                                <div className='dropdown-content'>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                </div>
                             </li>
-                            <li class="nav-item fw-bold">
-                                <a class="nav-link disabled">Networking</a>
+                            {/* ------------end component menu--------------- */}
+                            {/* ------------start Networking menu--------------- */}
+                            <li class="dropdown nav-item">
+                                <Link style={{ textDecoration: 'none' }} to='/'>
+                                    <button class="dropbtn nav-link fw-bold">Networking</button>
+                                </Link>
+                                <div className='dropdown-content'>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                </div>
                             </li>
-                            <li class="nav-item fw-bold">
-                                <div><a class="nav-link disabled">Office Equipment</a></div>
+                            {/* ------------end Networking menu--------------- */}
+                            {/* ------------start Office Equipment menu--------------- */}
+                            <li class="dropdown nav-item">
+                                <Link style={{ textDecoration: 'none' }} to='/'>
+                                    <button class="dropbtn nav-link fw-bold">Office Equipment</button>
+                                </Link>
+                                <div className='dropdown-content'>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                </div>
                             </li>
-
+                            {/* ------------end Office Equipment menu--------------- */}
+                            {/* ------------start Accessories menu--------------- */}
                             <li class="dropdown nav-item">
                                 <Link style={{ textDecoration: 'none' }} to='/accessories'>
                                     <button class="dropbtn nav-link fw-bold">Accessories</button>
@@ -188,7 +554,8 @@ const Header = () => {
                                     </li>
                                 </div>
                             </li>
-
+                            {/* ------------end Accessories menu--------------- */}
+                            {/* ------------start security menu--------------- */}
                             <li class="dropdown nav-item">
                                 <Link style={{ textDecoration: 'none' }} to='/security'>
                                     <button class="dropbtn nav-link fw-bold">Security</button>
@@ -281,21 +648,352 @@ const Header = () => {
                                     <a href="#">Link 3</a>
                                 </div>
                             </li>
-                            <li class="nav-item fw-bold">
-                                <a class="nav-link disabled">Ups</a>
+                            {/* ------------end security menu--------------- */}
+                              {/* ------------start Ups menu--------------- */}
+                              <li class="dropdown nav-item">
+                                <Link style={{ textDecoration: 'none' }} to='/'>
+                                    <button class="dropbtn nav-link fw-bold">Ups</button>
+                                </Link>
+                                <div className='dropdown-content'>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                </div>
                             </li>
-                            <li class="nav-item fw-bold">
-                                <a class="nav-link disabled">Components</a>
+                            {/* ------------end Ups menu--------------- */}
+                              {/* ------------start Camera menu--------------- */}
+                              <li class="dropdown nav-item">
+                                <Link style={{ textDecoration: 'none' }} to='/'>
+                                    <button class="dropbtn nav-link fw-bold">Office Equipment</button>
+                                </Link>
+                                <div className='dropdown-content'>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                </div>
                             </li>
-                            <li class="nav-item fw-bold">
-                                <a class="nav-link disabled">Software</a>
+                            {/* ------------end Camera menu--------------- */}
+                              {/* ------------start software menu--------------- */}
+                              <li class="dropdown nav-item">
+                                <Link style={{ textDecoration: 'none' }} to='/'>
+                                    <button class="dropbtn nav-link fw-bold">Software</button>
+                                </Link>
+                                <div className='dropdown-content'>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                </div>
                             </li>
-                            <li class="nav-item fw-bold">
-                                <a class="nav-link disabled">Storage</a>
+                            {/* ------------end Software menu--------------- */}
+                              {/* ------------start Storate menu--------------- */}
+                              <li class="dropdown nav-item">
+                                <Link style={{ textDecoration: 'none' }} to='/'>
+                                    <button class="dropbtn nav-link fw-bold">Storate</button>
+                                </Link>
+                                <div className='dropdown-content'>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                </div>
                             </li>
-                            <li class="nav-item fw-bold">
-                                <a class="nav-link disabled">Sound System</a>
+                            {/* ------------end Storate menu--------------- */}
+                              {/* ------------start Sound System menu--------------- */}
+                              <li class="dropdown nav-item">
+                                <Link style={{ textDecoration: 'none' }} to='/'>
+                                    <button class="dropbtn nav-link fw-bold">Sound System</button>
+                                </Link>
+                                <div className='dropdown-content'>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Keyboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                </div>
                             </li>
+                            {/* ------------end Sound System menu--------------- */}
                         </ul>
                         {/*      <form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
@@ -304,7 +1002,6 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
-            <Outlet />
         </>
     );
 };
