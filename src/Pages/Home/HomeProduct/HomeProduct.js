@@ -1,13 +1,16 @@
 import React from 'react';
+import useAMD from '../../../Hooks/UseAMD';
 import useHikvision from '../../../Hooks/UseHikvision';
 import useMicropack from '../../../Hooks/useMicropack';
 import MicropackCopy from '../../Accessories/Keyboard/Micropacks/Micropack/MicropackCopy';
+import AMDCopy from '../../Components/Processor/AMDS/AMD/AMDCopy';
 import HikvisionCopy from '../../Security/CcCamera/Hikvisions/Hikvision/HikvisionCopy';
 import './HomeProduct.css';
 
 const HomeProduct = () => {
     const [hikvisions, setHikvisions] = useHikvision([]);
     const [micropacks, setMicropacks] = useMicropack([]);
+    const [amds, setAmds] = useAMD([]);
 
     return (
         <div className='homeProductBg'>
@@ -24,6 +27,9 @@ const HomeProduct = () => {
                     }
                     {
                         micropacks.slice(3, 4).map(micropack => <MicropackCopy key={micropack._id} micropack={micropack}></MicropackCopy>)
+                    }
+                    {
+                        amds.slice(3, 4).map(amd => <AMDCopy key={amd._id} amd={amd}></AMDCopy>)
                     }
                 </div>
             </div>

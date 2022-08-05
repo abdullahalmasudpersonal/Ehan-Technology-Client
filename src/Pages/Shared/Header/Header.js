@@ -268,14 +268,38 @@ const Header = () => {
                             {/* ------------end Monitors menu--------------- */}
                             {/* ------------start component menu--------------- */}
                             <li class="dropdown nav-item">
-                                <Link style={{ textDecoration: 'none' }} to='/'>
+                                <Link style={{ textDecoration: 'none' }} to='/components'>
                                     <button class="dropbtn nav-link fw-bold">Components</button>
                                 </Link>
                                 <div className='dropdown-content'>
                                     <li className='dropdown2'>
                                         <Link to='/keyboard'>
                                             <div className='d-flex justify-content-between align-items-center'>
-                                                <a>Keyboard</a>
+                                                <a>Motherboard</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/porcessors'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Processor</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Intel</></Link>
+                                            <Link to='/amds'>< >AMD</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Ram</a>
                                                 <FontAwesomeIcon icon={faCaretRight} />
                                             </div>
                                         </Link>
@@ -287,7 +311,7 @@ const Header = () => {
                                     <li className='dropdown2'>
                                         <Link to='/keyboard'>
                                             <div className='d-flex justify-content-between align-items-center'>
-                                                <a>Keyboard</a>
+                                                <a>Graphics Card</a>
                                                 <FontAwesomeIcon icon={faCaretRight} />
                                             </div>
                                         </Link>
@@ -299,7 +323,7 @@ const Header = () => {
                                     <li className='dropdown2'>
                                         <Link to='/keyboard'>
                                             <div className='d-flex justify-content-between align-items-center'>
-                                                <a>Keyboard</a>
+                                                <a>DVD Driver</a>
                                                 <FontAwesomeIcon icon={faCaretRight} />
                                             </div>
                                         </Link>
@@ -311,7 +335,7 @@ const Header = () => {
                                     <li className='dropdown2'>
                                         <Link to='/keyboard'>
                                             <div className='d-flex justify-content-between align-items-center'>
-                                                <a>Keyboard</a>
+                                                <a>Power Supply</a>
                                                 <FontAwesomeIcon icon={faCaretRight} />
                                             </div>
                                         </Link>
@@ -323,7 +347,19 @@ const Header = () => {
                                     <li className='dropdown2'>
                                         <Link to='/keyboard'>
                                             <div className='d-flex justify-content-between align-items-center'>
-                                                <a>Keyboard</a>
+                                                <a>Casing</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/micropacks'>< >Micropack</></Link>
+                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>CPU Cooler</a>
                                                 <FontAwesomeIcon icon={faCaretRight} />
                                             </div>
                                         </Link>

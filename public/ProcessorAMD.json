@@ -1,0 +1,62 @@
+[
+    {
+        "_id":"5645fgh11s2df",
+        "model":"(Bundle with PC) Intel 11th Gen Rocket Lake Core i7 11700K Desktop Processor",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/bundle-with-pc-intel-10th-gen-comet-lake-core-11624449239.webp",
+        "price":"11570",
+        "brand":"AMD",
+        "facilities1": "Core 4",
+        "facilities2": "CPU Cache 10MB",
+        "facilities3": "Base Frequency 3.60GHz",
+        "facilities4": "Processor Type. Core i7",
+        "facilities5": "Turbo Frequency Max. 3.80GHz"
+    },
+    {
+        "_id":"5645fgh11s2df",
+        "model":"AMD Ryzen 7 3800X Without GPU Desktop Processor",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/bundle-with-pc-amd-ryzen-3-pro-4350g-am4-11649498271.webp",
+        "price":"11570",
+        "brand":"AMD", 
+        "facilities1": "Core 4",
+        "facilities2": "CPU Cache 10MB",
+        "facilities3": "Base Frequency 3.60GHz",
+        "facilities4": "Processor Type. Core i7",
+        "facilities5": "Turbo Frequency Max. 3.80GHz"
+    },
+    {
+        "_id":"5645fgh11s2df",
+        "model":"Intel 3rd Gen Sandy Bridge E Core i7 3820 Desktop Processor",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/single-amd-ryzen-5-3500-36ghz-41ghz-6-core-11575893130.webp",
+        "price":"11570",
+        "brand":"AMD",
+        "facilities1": "Core 4",
+        "facilities2": "CPU Cache 10MB",
+        "facilities3": "Base Frequency 3.60GHz",
+        "facilities4": "Processor Type. Core i7",
+        "facilities5": "Turbo Frequency Max. 3.80GHz"
+    },
+    {
+        "_id":"5645fgh11s2df",
+        "model":"(Bundle with PC) Intel 12th Gen Alder Lake Core i5 12400F Desktop Processor",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/bundle-with-pc-intel-10th-gen-comet-lake-core-11624448469.webp",
+        "price":"11570",
+        "brand":"AMD",
+        "facilities1": "Core 4",
+        "facilities2": "CPU Cache 10MB",
+        "facilities3": "Base Frequency 3.60GHz",
+        "facilities4": "Processor Type. Core i7",
+        "facilities5": "Turbo Frequency Max. 3.80GHz"
+    },
+    {
+        "_id":"5645fgh11s2df",
+        "model":"AMD Ryzen 5 3600 Without GPU Desktop Processor",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/intel-core-i7-3820-36ghz-10mb-cache-lga2011-3rd-11545279423.webp",
+        "price":"11570",
+        "brand":"AMD",
+        "facilities1": "Core 4",
+        "facilities2": "CPU Cache 10MB",
+        "facilities3": "Base Frequency 3.60GHz",
+        "facilities4": "Processor Type. Core i7",
+        "facilities5": "Turbo Frequency Max. 3.80GHz"
+    }
+]

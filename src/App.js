@@ -16,10 +16,15 @@ import Monitors from './Pages/Monitors/Monitors/Monitors';
 import CcCamera from './Pages/Security/CcCamera/CcCamera/CcCamera';
 import Hikvisions from './Pages/Security/CcCamera/Hikvisions/Hikvisions';
 import HikvisionsBuyNow from './Pages/Security/CcCamera/Hikvisions/HikvisionsBuyNow/HikvisionsBuyNow';
-import MicropackBuyNow from './Pages/Accessories/Keyboard/Micropacks/Micropack/MicropackBuyNow/MicropackBuyNow';
+import MicropackBuyNow from './Pages/Accessories/Keyboard/Micropacks/MicropackBuyNow/MicropackBuyNow';
 import Security from './Pages/Security/Security/Security';
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
+import Components from './Pages/Components/Components/Components';
+import Processor from './Pages/Components/Processor/Processor/Processor';
+import AMDS from './Pages/Components/Processor/AMDS/AMDS';
+import AMDBuyNow from './Pages/Components/Processor/AMDS/AMDBuyNow/AMDBuyNow';
+
 
 
 function App() {
@@ -37,11 +42,19 @@ function App() {
           <Route index element={<Hp />} />
           <Route path='dell' element={<Dell />} />
         </Route>
+        {/* --------------- start Components --------------- */}
+        <Route path='/components' element={<Components />} />
+        <Route path='/porcessors' element={<Processor />} />
+        <Route path='/amds' element={<AMDS />} />
+        <Route path='/amds/:amdId' element={<AMDBuyNow />} />
+        {/* --------------- end Components --------------- */}
+        {/* --------------- start Accessories --------------- */}
         <Route path='/accessories' element={<Accessories />} />
         <Route path='/keyboard' element={<Keyboard />} />
         <Route path='/micropacks' element={<Micropacks />} />
         <Route path='/micropacks/:micropackId' element={<MicropackBuyNow />} />
         <Route path='/mouse' element={<Mouse />} />
+        {/* --------------- end Accessories --------------- */}
         <Route path='/security' element={<Security />} />
         <Route path='/security-cc-camera' element={<CcCamera />} />
         <Route path='/hikvisions' element={<Hikvisions />} />

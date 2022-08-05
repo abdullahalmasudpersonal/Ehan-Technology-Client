@@ -1,25 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import './HikvisionsBuyNow.css';
-import './ShoppingCart';
 
 const HikvisionsBuyNow = () => {
     const { hikvisionId } = useParams();
     const [hikvision, setHikvision] = useState({});
     useEffect(() => {
         const url = `http://localhost:5000/hikvisions/${hikvisionId}`;
-        console.log(url);
         fetch(url)
             .then(res => res.json())
             .then(data => setHikvision(data));
-    }, [])
-
-    /*     document.getElementById('case-plus').addEventListener('click', function() {
-            const caseInput = document.getElementById('case-number');
-            const caseNumber = caseInput.value;
-            caseInput.value = parseInt(caseNumber) + 1;
-            
-        })  */
+    }, []);
 
     return (
         <div className='container-xxl'>
@@ -54,7 +45,6 @@ const HikvisionsBuyNow = () => {
 
                     <button id='case-plus' class="btn btn-default"><i class="fas fa-plus"></i></button>
                 </div>
-
             </div>
         </div>
     );
