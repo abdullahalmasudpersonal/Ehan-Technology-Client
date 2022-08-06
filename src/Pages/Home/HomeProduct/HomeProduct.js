@@ -1,9 +1,11 @@
 import React from 'react';
 import useAMD from '../../../Hooks/UseAMD';
 import useHikvision from '../../../Hooks/UseHikvision';
+import useIntel from '../../../Hooks/UseIntel';
 import useMicropack from '../../../Hooks/useMicropack';
 import MicropackCopy from '../../Accessories/Keyboard/Micropacks/Micropack/MicropackCopy';
 import AMDCopy from '../../Components/Processor/AMDS/AMD/AMDCopy';
+import IntelCopy from '../../Components/Processor/Intels/Intel/IntelCopy';
 import HikvisionCopy from '../../Security/CcCamera/Hikvisions/Hikvision/HikvisionCopy';
 import './HomeProduct.css';
 
@@ -11,6 +13,7 @@ const HomeProduct = () => {
     const [hikvisions, setHikvisions] = useHikvision([]);
     const [micropacks, setMicropacks] = useMicropack([]);
     const [amds, setAmds] = useAMD([]);
+    const [intels, setIntels] = useIntel([]);
 
     return (
         <div className='homeProductBg'>
@@ -30,6 +33,9 @@ const HomeProduct = () => {
                     }
                     {
                         amds.slice(3, 4).map(amd => <AMDCopy key={amd._id} amd={amd}></AMDCopy>)
+                    }
+                    {
+                        intels.slice(3, 4).map(intel => <IntelCopy key={intel._id} intel={intel}></IntelCopy>)
                     }
                 </div>
             </div>

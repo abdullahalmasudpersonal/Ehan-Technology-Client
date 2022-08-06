@@ -292,7 +292,7 @@ const Header = () => {
                                             </div>
                                         </Link>
                                         <div class="dropdown-content2">
-                                            <Link to='/micropacks'>< >Intel</></Link>
+                                            <Link to='/intels'>< >Intel</></Link>
                                             <Link to='/amds'>< >AMD</></Link>
                                         </div>
                                     </li>

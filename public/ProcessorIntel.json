@@ -1,0 +1,67 @@
+[
+    {
+        "_id":"564511dfghs2df",
+        "model":"Hikvision DS-2CE56D0T-IRPF (2.8mm) (2.0MP) Dome CC Camera",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/bundle-with-pc-intel-12th-gen-alder-lake-core-11635852915.webp",
+        "price":"34,500",
+        "brand":"Intel",
+        "status": "In Stock",
+        "facilities1": "Core 8",
+        "facilities2": "CPU Cache 16MB",
+        "facilities3": "Generation 11th",
+        "facilities4": "Processor Type. Core i7",
+        "facilities5": "Turbo Frequency Max. 5.0GHz"
+    },
+    {
+        "_id":"564511dfgs2df",
+        "model":"Hikvision DS-2CE56D0T-IRPF (2.8mm) (2.0MP) Dome CC Camera",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/intel-9th-gen-coffee-lake-core-i9-9900k-11551532793.webp",
+        "price":"34,500",
+        "brand":"Intel",
+        "status": "In Stock",
+        "facilities1": "Core 8",
+        "facilities2": "CPU Cache 16MB",
+        "facilities3": "Generation 11th",
+        "facilities4": "Processor Type. Core i7",
+        "facilities5": "Turbo Frequency Max. 5.0GHz"
+    },
+    {
+        "_id":"564511dfgs2df",
+        "model":"Hikvision DS-2CE56D0T-IRPF (2.8mm) (2.0MP) Dome CC Camera",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/bundle-with-pc-intel-11th-gen-rocket-lake-core-41619688318.webp",
+        "price":"34,500",
+        "brand":"Intel",
+        "status": "In Stock",
+        "facilities1": "Core 8",
+        "facilities2": "CPU Cache 16MB",
+        "facilities3": "Generation 11th",
+        "facilities4": "Processor Type. Core i7",
+        "facilities5": "Turbo Frequency Max. 5.0GHz"
+    },
+    {
+        "_id":"56451dfg1s2df",
+        "model":"Hikvision DS-2CE56D0T-IRPF (2.8mm) (2.0MP) Dome CC Camera",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/intel-core-i5-4460-4th-gen-desktop-11641450857.webp",
+        "price":"34,500",
+        "brand":"Intel",
+        "status": "In Stock",
+        "facilities1": "Core 8",
+        "facilities2": "CPU Cache 16MB",
+        "facilities3": "Generation 11th",
+        "facilities4": "Processor Type. Core i7",
+        "facilities5": "Turbo Frequency Max. 5.0GHz"
+    },
+    {
+        "_id":"564fd511s2df",
+        "model":"Hikvision DS-2CE56D0T-IRPF (2.8mm) (2.0MP) Dome CC Camera",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/bundle-with-pc-intel-comet-lake-pentium-gold-11628758428.webp",
+        "price":"34,500",
+        "brand":"Intel",
+        "status": "In Stock",
+        "facilities1": "Core 8",
+        "facilities2": "CPU Cache 16MB",
+        "facilities3": "Generation 11th",
+        "facilities4": "Processor Type. Core i7",
+        "facilities5": "Turbo Frequency Max. 5.0GHz"
+    }
+]

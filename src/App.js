@@ -24,6 +24,8 @@ import Components from './Pages/Components/Components/Components';
 import Processor from './Pages/Components/Processor/Processor/Processor';
 import AMDS from './Pages/Components/Processor/AMDS/AMDS';
 import AMDBuyNow from './Pages/Components/Processor/AMDS/AMDBuyNow/AMDBuyNow';
+import Intels from './Pages/Components/Processor/Intels/Intels';
+import IntelBuyNow from './Pages/Components/Processor/Intels/IntelBuyNow/IntelBuyNow';
 
 
 
@@ -45,6 +47,8 @@ function App() {
         {/* --------------- start Components --------------- */}
         <Route path='/components' element={<Components />} />
         <Route path='/porcessors' element={<Processor />} />
+        <Route path='/intels' element={<Intels />} />
+        <Route path='/intels/:intelId' element={<IntelBuyNow />} />
         <Route path='/amds' element={<AMDS />} />
         <Route path='/amds/:amdId' element={<AMDBuyNow />} />
         {/* --------------- end Components --------------- */}
