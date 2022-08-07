@@ -20,7 +20,7 @@ const HomeProduct = () => {
 
     return (
         <div className='homeProductBg'>
-            <div className='container'>
+            <div className='container-xxl'>
                 <div className='d-flex justify-content-center p-5'>
                     <div className='homePorductHeading'>
                         <h4 className='text-center fw-bold'>Product Collections</h4>

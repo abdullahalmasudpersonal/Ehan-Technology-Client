@@ -28,6 +28,7 @@ import Intels from './Pages/Components/Processor/Intels/Intels';
 import IntelBuyNow from './Pages/Components/Processor/Intels/IntelBuyNow/IntelBuyNow';
 import TPLinks from './Pages/Networking/Router/TPLinks/TPLinks';
 import TPLinkBuyNow from './Pages/Networking/Router/TPLinks/TPLinkBuyNow/TPLinkBuyNow';
+import Router from './Pages/Networking/Router/Router/Router';
 
 
 
@@ -55,6 +56,7 @@ function App() {
         <Route path='/amds/:amdId' element={<AMDBuyNow />} />
         {/* --------------- end Components --------------- */}
         {/* --------------- start Networking --------------- */}
+        <Route path='/router' element={<Router />} />
         <Route path='/tplinks' element={<TPLinks />} />
         <Route path='/tplinks/:tplinkId' element={<TPLinkBuyNow />} />
         {/* --------------- end Networking --------------- */}

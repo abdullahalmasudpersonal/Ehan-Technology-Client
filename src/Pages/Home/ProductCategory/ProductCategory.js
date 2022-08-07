@@ -31,13 +31,13 @@ const ProductCategory = () => {
                     <hr className='category-hr rounded mx-5' />
                 </div>
                 <div className='pro-category-flex'>
-                    <Link to="">
+                    <Link style={{textDecoration:'none'}} to="">
                         <div className='pro-category-dev'>
                             <div className='pro-category-font py-3'>
                                 <img src={Desktop} width='50px' alt='' />
                             </div>
                             <div>
-                                <h5 className='text-center'>Desktop</h5>
+                                <h5 className='txtdacoration text-center'>Desktop</h5>
                             </div>
                         </div>
                     </Link>
@@ -65,14 +65,16 @@ const ProductCategory = () => {
                             <h5 className='text-center'>Camera</h5>
                         </div>
                     </div>
-                    <div className='pro-category-dev'>
-                        <div className='pro-category-font py-3'>
-                            <img src={Router} width='50px' alt='' />
+                    <Link style={{textDecoration:'none'}} to='/router'>
+                        <div className='pro-category-dev'>
+                            <div className='pro-category-font py-3'>
+                                <img src={Router} width='50px' alt='' />
+                            </div>
+                            <div>
+                                <h5 className='txtdacoration text-center'>Router</h5>
+                            </div>
                         </div>
-                        <div>
-                            <h5 className='text-center'>Router</h5>
-                        </div>
-                    </div>
+                    </Link>
                     <div className='pro-category-dev'>
                         <div className='pro-category-font py-3'>
                             <img src={Processor} width='50px' alt='' />

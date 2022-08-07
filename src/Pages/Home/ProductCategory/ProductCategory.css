@@ -39,6 +39,13 @@
     justify-content: center;
     align-items: center;
 }
+.txtdacoration{
+    text-decoration: none;
+    color: black;
+}
+.txtdacoration:hover{
+    color: rgb(4, 0, 255);
+}
 @media screen and (min-width:50px) and (max-width:359px){
     .pro-category-dev{
         height: 150px;

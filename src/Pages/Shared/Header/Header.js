@@ -378,7 +378,7 @@ const Header = () => {
                                 </Link>
                                 <div className='dropdown-content'>
                                     <li className='dropdown2'>
-                                        <Link to='/keyboard'>
+                                        <Link to='/router'>
                                             <div className='d-flex justify-content-between align-items-center'>
                                                 <a>Router</a>
                                                 <FontAwesomeIcon icon={faCaretRight} />
