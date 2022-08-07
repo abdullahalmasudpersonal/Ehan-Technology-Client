@@ -1,0 +1,67 @@
+[
+    {
+        "_id":"564511dfghs2df",
+        "model":"TP-Link TL-WR820N 300 Mbps Ethernet Single-Band Wi-Fi Router",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/tp-link-tl-wr841n-300mbps-wireless-11591163398.webp",
+        "price":" 1,590",
+        "brand":"TP-Link",
+        "status": "In Stock",
+        "facilities1": "11n: Up to 300Mbps",
+        "facilities2": "Router Type Wireless & Ethernet",
+        "facilities3": "1 x WAN & 4 x LAN ports",
+        "facilities4": "Data Transfer Rate (Wifi) 300 Mbps",
+        "facilities5": "Antenna (Type & Qty) 2 x 5dBi External Antena"
+    },
+    {
+        "_id":"564511dfghs2df",
+        "model":"TP-Link TL-WR820N 300 Mbps Ethernet Single-Band Wi-Fi Router",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/tp-link-tl-wr850n-300mbps-wireless-n-speed-11544859774.webp",
+        "price":" 1,590",
+        "brand":"TP-Link",
+        "status": "In Stock",
+        "facilities1": "11n: Up to 300Mbps",
+        "facilities2": "Router Type Wireless & Ethernet",
+        "facilities3": "1 x WAN & 4 x LAN ports",
+        "facilities4": "Data Transfer Rate (Wifi) 300 Mbps",
+        "facilities5": "Antenna (Type & Qty) 2 x 5dBi External Antena"
+    },
+    {
+        "_id":"564511dfghs2df",
+        "model":"TP-Link TL-WR820N 300 Mbps Ethernet Single-Band Wi-Fi Router",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/tp-link-tl-wr845n-300mbps-wireless-router-3-11548418576.webp",
+        "price":" 1,590",
+        "brand":"TP-Link",
+        "status": "In Stock",
+        "facilities1": "11n: Up to 300Mbps",
+        "facilities2": "Router Type Wireless & Ethernet",
+        "facilities3": "1 x WAN & 4 x LAN ports",
+        "facilities4": "Data Transfer Rate (Wifi) 300 Mbps",
+        "facilities5": "Antenna (Type & Qty) 2 x 5dBi External Antena"
+    },
+    {
+        "_id":"564511dfghs2df",
+        "model":"TP-Link TL-WR820N 300 Mbps Ethernet Single-Band Wi-Fi Router",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/tp-link-deco-e4-ac1200-whole-home-mesh-wi-fi-11582716773.webp",
+        "price":" 1,590",
+        "brand":"TP-Link",
+        "status": "In Stock",
+        "facilities1": "11n: Up to 300Mbps",
+        "facilities2": "Router Type Wireless & Ethernet",
+        "facilities3": "1 x WAN & 4 x LAN ports",
+        "facilities4": "Data Transfer Rate (Wifi) 300 Mbps",
+        "facilities5": "Antenna (Type & Qty) 2 x 5dBi External Antena"
+    },
+    {
+        "_id":"564511dfghs2df",
+        "model":"TP-Link TL-WR820N 300 Mbps Ethernet Single-Band Wi-Fi Router",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/tp-link-archer-ax55-ax3000-mbps-gigabit-dual-band-11653997856.webp",
+        "price":" 1,590",
+        "brand":"TP-Link",
+        "status": "In Stock",
+        "facilities1": "11n: Up to 300Mbps",
+        "facilities2": "Router Type Wireless & Ethernet",
+        "facilities3": "1 x WAN & 4 x LAN ports",
+        "facilities4": "Data Transfer Rate (Wifi) 300 Mbps",
+        "facilities5": "Antenna (Type & Qty) 2 x 5dBi External Antena"
+    }
+]

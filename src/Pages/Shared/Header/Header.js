@@ -380,7 +380,23 @@ const Header = () => {
                                     <li className='dropdown2'>
                                         <Link to='/keyboard'>
                                             <div className='d-flex justify-content-between align-items-center'>
-                                                <a>Keyboard</a>
+                                                <a>Router</a>
+                                                <FontAwesomeIcon icon={faCaretRight} />
+                                            </div>
+                                        </Link>
+                                        <div class="dropdown-content2">
+                                            <Link to='/tplinks'>< >TP-Link</></Link>
+                                            <Link to='/hikvisions'>< >D-Link</></Link>
+                                            <Link to='/hikvisions'>< >Asus</></Link>
+                                            <Link to='/hikvisions'>< >Tenda</></Link>
+                                            <Link to='/hikvisions'>< >Huawei</></Link>
+                                            <Link to='/hikvisions'>< >MI</></Link>
+                                        </div>
+                                    </li>
+                                    <li className='dropdown2'>
+                                        <Link to='/keyboard'>
+                                            <div className='d-flex justify-content-between align-items-center'>
+                                                <a>Optical Network Unit (ONU)</a>
                                                 <FontAwesomeIcon icon={faCaretRight} />
                                             </div>
                                         </Link>
@@ -392,19 +408,7 @@ const Header = () => {
                                     <li className='dropdown2'>
                                         <Link to='/keyboard'>
                                             <div className='d-flex justify-content-between align-items-center'>
-                                                <a>Keyboard</a>
-                                                <FontAwesomeIcon icon={faCaretRight} />
-                                            </div>
-                                        </Link>
-                                        <div class="dropdown-content2">
-                                            <Link to='/micropacks'>< >Micropack</></Link>
-                                            <Link to='/hikvisions'>< >HikVision</></Link>
-                                        </div>
-                                    </li>
-                                    <li className='dropdown2'>
-                                        <Link to='/keyboard'>
-                                            <div className='d-flex justify-content-between align-items-center'>
-                                                <a>Keyboard</a>
+                                                <a>LAN Card</a>
                                                 <FontAwesomeIcon icon={faCaretRight} />
                                             </div>
                                         </Link>

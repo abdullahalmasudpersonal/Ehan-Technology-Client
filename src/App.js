@@ -26,6 +26,8 @@ import AMDS from './Pages/Components/Processor/AMDS/AMDS';
 import AMDBuyNow from './Pages/Components/Processor/AMDS/AMDBuyNow/AMDBuyNow';
 import Intels from './Pages/Components/Processor/Intels/Intels';
 import IntelBuyNow from './Pages/Components/Processor/Intels/IntelBuyNow/IntelBuyNow';
+import TPLinks from './Pages/Networking/Router/TPLinks/TPLinks';
+import TPLinkBuyNow from './Pages/Networking/Router/TPLinks/TPLinkBuyNow/TPLinkBuyNow';
 
 
 
@@ -52,6 +54,10 @@ function App() {
         <Route path='/amds' element={<AMDS />} />
         <Route path='/amds/:amdId' element={<AMDBuyNow />} />
         {/* --------------- end Components --------------- */}
+        {/* --------------- start Networking --------------- */}
+        <Route path='/tplinks' element={<TPLinks />} />
+        <Route path='/tplinks/:tplinkId' element={<TPLinkBuyNow />} />
+        {/* --------------- end Networking --------------- */}
         {/* --------------- start Accessories --------------- */}
         <Route path='/accessories' element={<Accessories />} />
         <Route path='/keyboard' element={<Keyboard />} />
