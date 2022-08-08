@@ -1,0 +1,67 @@
+[
+    {
+        "_id":"564511dfghs2df",
+        "model":"Dell P2418HT 24 Inch Full HD IPS Touch HDMI, VGA Monitor",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/dell-p2418ht-24-inch-full-hd-ips-touch-flat-black-11607000350.webp",
+        "price":" 39,590",
+        "brand":"Dell",
+        "status": "In Stock",
+        "facilities1": "VGA Port 1",
+        "facilities2": "HDMI Port 1",
+        "facilities3": "Display Size (Inch) 24",
+        "facilities4": "Response Time (ms) 6ms (Gray to Gray)",
+        "facilities5": "Display Resolution 1920x1080 (WxH) FHD"
+    },
+    {
+        "_id":"564511dfghs2df",
+        "model":"Dell P2418HT 24 Inch Full HD IPS Touch HDMI, VGA Monitor",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/dell-p2422h-24-inch-fhd-hdmi-dp-vga-usb-ips-21633773804.webp",
+        "price":" 39,590",
+        "brand":"Dell",
+        "status": "In Stock",
+        "facilities1": "VGA Port 1",
+        "facilities2": "HDMI Port 1",
+        "facilities3": "Display Size (Inch) 24",
+        "facilities4": "Response Time (ms) 6ms (Gray to Gray)",
+        "facilities5": "Display Resolution 1920x1080 (WxH) FHD"
+    },
+    {
+        "_id":"564511dfghs2df",
+        "model":"Dell P2418HT 24 Inch Full HD IPS Touch HDMI, VGA Monitor",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/dell-s2421hn-238-inch-full-hd-ips-monitor-hdmi-41610262133.webp",
+        "price":" 39,590",
+        "brand":"Dell",
+        "status": "In Stock",
+        "facilities1": "VGA Port 1",
+        "facilities2": "HDMI Port 1",
+        "facilities3": "Display Size (Inch) 24",
+        "facilities4": "Response Time (ms) 6ms (Gray to Gray)",
+        "facilities5": "Display Resolution 1920x1080 (WxH) FHD"
+    },
+    {
+        "_id":"564511dfghs2df",
+        "model":"Dell P2418HT 24 Inch Full HD IPS Touch HDMI, VGA Monitor",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/dell-e1916h-185-inch-led-monitor-vgadp-image1-11550317943.webp",
+        "price":" 39,590",
+        "brand":"Dell",
+        "status": "In Stock",
+        "facilities1": "VGA Port 1",
+        "facilities2": "HDMI Port 1",
+        "facilities3": "Display Size (Inch) 24",
+        "facilities4": "Response Time (ms) 6ms (Gray to Gray)",
+        "facilities5": "Display Resolution 1920x1080 (WxH) FHD"
+    },
+    {
+        "_id":"564511dfghs2df",
+        "model":"Dell P2418HT 24 Inch Full HD IPS Touch HDMI, VGA Monitor",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/dell-p2418ht-24-inch-full-hd-ips-touch-flat-black-11607000350.webp",
+        "price":" 39,590",
+        "brand":"Dell",
+        "status": "In Stock",
+        "facilities1": "VGA Port 1",
+        "facilities2": "HDMI Port 1",
+        "facilities3": "Display Size (Inch) 24",
+        "facilities4": "Response Time (ms) 6ms (Gray to Gray)",
+        "facilities5": "Display Resolution 1920x1080 (WxH) FHD"
+    }
+]

@@ -10,8 +10,6 @@ import Desktops from './Pages/Desktops/Desktops/Desktops';
 import Home from './Pages/Home/Home/Home';
 import AllLaptops from './Pages/Laptops/AllLaptops/AllLaptops';
 import Laptops from './Pages/Laptops/Laptops/Laptops';
-import Dell from './Pages/Monitors/Dell/Dell';
-import Hp from './Pages/Monitors/Hp/Hp';
 import Monitors from './Pages/Monitors/Monitors/Monitors';
 import CcCamera from './Pages/Security/CcCamera/CcCamera/CcCamera';
 import Hikvisions from './Pages/Security/CcCamera/Hikvisions/Hikvisions';
@@ -29,6 +27,9 @@ import IntelBuyNow from './Pages/Components/Processor/Intels/IntelBuyNow/IntelBu
 import TPLinks from './Pages/Networking/Router/TPLinks/TPLinks';
 import TPLinkBuyNow from './Pages/Networking/Router/TPLinks/TPLinkBuyNow/TPLinkBuyNow';
 import Router from './Pages/Networking/Router/Router/Router';
+import Dells from './Pages/Monitors/Dells/Dells';
+import OfficeEquipments from './Pages/OfficeEquipments/OfficeEquipments/OfficeEquipments';
+import Storages from './Pages/Storages/Storages/Storages';
 
 
 
@@ -43,10 +44,10 @@ function App() {
         <Route path='/laptops' element={<Laptops />}>
           <Route path='allLaptops' element={<AllLaptops />} />
         </Route>
-        <Route path='/monitors' element={<Monitors />} >
-          <Route index element={<Hp />} />
-          <Route path='dell' element={<Dell />} />
-        </Route>
+        {/* --------------- start Monitors --------------- */}
+        <Route path='/monitors' element={<Monitors />} />
+        <Route path='dells' element={<Dells />} />
+        {/* --------------- end Monitors --------------- */}
         {/* --------------- start Components --------------- */}
         <Route path='/components' element={<Components />} />
         <Route path='/porcessors' element={<Processor />} />
@@ -60,6 +61,9 @@ function App() {
         <Route path='/tplinks' element={<TPLinks />} />
         <Route path='/tplinks/:tplinkId' element={<TPLinkBuyNow />} />
         {/* --------------- end Networking --------------- */}
+        {/* --------------- start Office Equipment --------------- */}
+        <Route path='/officeEquipment' element={<OfficeEquipments />} />
+        {/* --------------- end Office Equipment --------------- */}
         {/* --------------- start Accessories --------------- */}
         <Route path='/accessories' element={<Accessories />} />
         <Route path='/keyboard' element={<Keyboard />} />
@@ -67,10 +71,15 @@ function App() {
         <Route path='/micropacks/:micropackId' element={<MicropackBuyNow />} />
         <Route path='/mouse' element={<Mouse />} />
         {/* --------------- end Accessories --------------- */}
+        {/* --------------- start Security --------------- */}
         <Route path='/security' element={<Security />} />
         <Route path='/security-cc-camera' element={<CcCamera />} />
         <Route path='/hikvisions' element={<Hikvisions />} />
         <Route path='/hikvisions/:hikvisionId' element={<HikvisionsBuyNow />} />
+        {/* --------------- end Security --------------- */}
+        {/* --------------- end Storage --------------- */}
+        <Route path='/storage' element={<Storages />} />
+        {/* --------------- end Storage --------------- */}
       </Routes>
       <Footer />
     </div>
