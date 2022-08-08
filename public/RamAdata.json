@@ -1,0 +1,67 @@
+[
+    {
+        "_id":"564511dfghs2df",
+        "model":"ADATA XPG Spectrix D50 RGB 8GB DDR4 3200MHz Gaming Desktop RAM",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/adata-xpg-spectrix-d50-rgb-8gb-ddr4-3200mhz-11644903982.webp",
+        "price":" 3,590",
+        "brand":"Adata",
+        "status": "In Stock",
+        "facilities1": "RAM Type DDR4",
+        "facilities2": "Bus Speed(MHz) 3200MHz",
+        "facilities3": "Capacity (GB/TB) 8GB",
+        "facilities4": "Supports the latest Intel & AMD platforms",
+        "facilities5": "Mesmerizing RGB lighting"
+    },
+    {
+        "_id":"564511dfghs2df",
+        "model":"ADATA XPG Spectrix D50 RGB 8GB DDR4 3200MHz Gaming Desktop RAM",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/adata-4gb-ddr4-2666mhz-desktop-ram-11642825232.webp",
+        "price":" 3,590",
+        "brand":"Adata",
+        "status": "In Stock",
+        "facilities1": "RAM Type DDR4",
+        "facilities2": "Bus Speed(MHz) 3200MHz",
+        "facilities3": "Capacity (GB/TB) 8GB",
+        "facilities4": "Supports the latest Intel & AMD platforms",
+        "facilities5": "Mesmerizing RGB lighting"
+    },
+    {
+        "_id":"564511dfghs2df",
+        "model":"ADATA XPG Spectrix D50 RGB 8GB DDR4 3200MHz Gaming Desktop RAM",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/adata-xpg-gammix-d20-16gb-ddr4-3600mhz-gaming-11644903743.webp",
+        "price":" 3,590",
+        "brand":"Adata",
+        "status": "In Stock",
+        "facilities1": "RAM Type DDR4",
+        "facilities2": "Bus Speed(MHz) 3200MHz",
+        "facilities3": "Capacity (GB/TB) 8GB",
+        "facilities4": "Supports the latest Intel & AMD platforms",
+        "facilities5": "Mesmerizing RGB lighting"
+    },
+    {
+        "_id":"564511dfghs2df",
+        "model":"ADATA XPG Spectrix D50 RGB 8GB DDR4 3200MHz Gaming Desktop RAM",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/adata-gammix-d30-8gb-ddr4-3000mhz-gaming-desktop-11597566892.webp",
+        "price":" 3,590",
+        "brand":"Adata",
+        "status": "In Stock",
+        "facilities1": "RAM Type DDR4",
+        "facilities2": "Bus Speed(MHz) 3200MHz",
+        "facilities3": "Capacity (GB/TB) 8GB",
+        "facilities4": "Supports the latest Intel & AMD platforms",
+        "facilities5": "Mesmerizing RGB lighting"
+    },
+    {
+        "_id":"564511dfghs2df",
+        "model":"ADATA XPG Spectrix D50 RGB 8GB DDR4 3200MHz Gaming Desktop RAM",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/adata-xpg-d60g-8gb-3200mhz-desktop-11594728851.webp",
+        "price":" 3,590",
+        "brand":"Adata",
+        "status": "In Stock",
+        "facilities1": "RAM Type DDR4",
+        "facilities2": "Bus Speed(MHz) 3200MHz",
+        "facilities3": "Capacity (GB/TB) 8GB",
+        "facilities4": "Supports the latest Intel & AMD platforms",
+        "facilities5": "Mesmerizing RGB lighting"
+    }
+]

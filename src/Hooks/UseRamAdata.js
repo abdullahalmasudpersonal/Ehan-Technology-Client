@@ -1,0 +1,14 @@
+import { useEffect, useState } from "react"
+
+const useRamAdata = () => {
+     const [ramAdatas, setRamAdatas] = useState([]);
+
+     useEffect( ()=>{
+         fetch('http://localhost:5000/ram-adatas')
+         .then(res => res.json())
+         .then(data => setRamAdatas(data));
+     },[]);
+     return [ramAdatas, setRamAdatas]
+}
+
+export default useRamAdata;

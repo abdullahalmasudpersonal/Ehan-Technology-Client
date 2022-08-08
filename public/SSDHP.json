@@ -1,0 +1,72 @@
+[
+    {
+        "_id":"564511dfghs2df",
+        "model":"HP S700 120GB SATAIII SSD #2DP97AA",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/hp-s700-250gb-25-inch-sataiii-ssd-11567073972.webp",
+        "price":" 2,590",
+        "brand":"HP",
+        "status": "In Stock",
+        "facilities1": "Type SATAIII SSD",
+        "facilities2": "Storage 120GB",
+        "facilities3": "Interface(s) SATA III 6Gb/s",
+        "facilities4": "Read Speed (Max.) 550MB/s",
+        "facilities5": "Form Factor (Inch) 2.5 Inch",
+        "facilities6": "Write Speed (Max.) 480MB/s"
+    },
+    {
+        "_id":"564511dfghs2df",
+        "model":"HP S700 120GB SATAIII SSD #2DP97AA",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/hp-ex900-250gb-m2-2280-pcie-nvme-ssd-11546419960.webp",
+        "price":" 2,590",
+        "brand":"HP",
+        "status": "In Stock",
+        "facilities1": "Type SATAIII SSD",
+        "facilities2": "Storage 120GB",
+        "facilities3": "Interface(s) SATA III 6Gb/s",
+        "facilities4": "Read Speed (Max.) 550MB/s",
+        "facilities5": "Form Factor (Inch) 2.5 Inch",
+        "facilities6": "Write Speed (Max.) 480MB/s"
+    },
+    {
+        "_id":"564511dfghs2df",
+        "model":"HP S700 120GB SATAIII SSD #2DP97AA",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/hp-s700-pro-128gb-25-inch-sataiii-ssd-11569043024.webp",
+        "price":" 2,590",
+        "brand":"HP",
+        "status": "In Stock",
+        "facilities1": "Type SATAIII SSD",
+        "facilities2": "Storage 120GB",
+        "facilities3": "Interface(s) SATA III 6Gb/s",
+        "facilities4": "Read Speed (Max.) 550MB/s",
+        "facilities5": "Form Factor (Inch) 2.5 Inch",
+        "facilities6": "Write Speed (Max.) 480MB/s"
+    },
+    {
+        "_id":"564511dfghs2df",
+        "model":"HP S700 120GB SATAIII SSD #2DP97AA",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/hp-ex900-500gb-m2-2280-pcie-nvme-ssd-11546420449.webp",
+        "price":" 2,590",
+        "brand":"HP",
+        "status": "In Stock",
+        "facilities1": "Type SATAIII SSD",
+        "facilities2": "Storage 120GB",
+        "facilities3": "Interface(s) SATA III 6Gb/s",
+        "facilities4": "Read Speed (Max.) 550MB/s",
+        "facilities5": "Form Factor (Inch) 2.5 Inch",
+        "facilities6": "Write Speed (Max.) 480MB/s"
+    },
+    {
+        "_id":"564511dfghs2df",
+        "model":"HP S700 120GB SATAIII SSD #2DP97AA",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/hp-s700-pro-128gb-m2-2280-sataiii-ssd-11575191762.webp",
+        "price":" 2,590",
+        "brand":"HP",
+        "status": "In Stock",
+        "facilities1": "Type SATAIII SSD",
+        "facilities2": "Storage 120GB",
+        "facilities3": "Interface(s) SATA III 6Gb/s",
+        "facilities4": "Read Speed (Max.) 550MB/s",
+        "facilities5": "Form Factor (Inch) 2.5 Inch",
+        "facilities6": "Write Speed (Max.) 480MB/s"
+    }
+]

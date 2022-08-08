@@ -3,10 +3,12 @@ import useAMD from '../../../Hooks/UseAMD';
 import useHikvision from '../../../Hooks/UseHikvision';
 import useIntel from '../../../Hooks/UseIntel';
 import useMicropack from '../../../Hooks/useMicropack';
+import useRamAdata from '../../../Hooks/UseRamAdata';
 import useTpLink from '../../../Hooks/UseTPLink';
 import MicropackCopy from '../../Accessories/Keyboard/Micropacks/Micropack/MicropackCopy';
 import AMDCopy from '../../Components/Processor/AMDS/AMD/AMDCopy';
 import IntelCopy from '../../Components/Processor/Intels/Intel/IntelCopy';
+import AdataCopy from '../../Components/Rams/Adatas/Adata/AdataCopy';
 import TpLinkCopy from '../../Networking/Router/TPLinks/TPLink/TPLinkCopy';
 import HikvisionCopy from '../../Security/CcCamera/Hikvisions/Hikvision/HikvisionCopy';
 import './HomeProduct.css';
@@ -17,6 +19,7 @@ const HomeProduct = () => {
     const [amds, setAmds] = useAMD([]);
     const [intels, setIntels] = useIntel([]);
     const [tpLink, setTpLink] = useTpLink([]);
+    const [ramAdatas, setRamAdatas] = useRamAdata([]);
 
     return (
         <div className='homeProductBg'>
@@ -42,6 +45,9 @@ const HomeProduct = () => {
                     }
                     {
                         tpLink.slice(3, 4).map(tplink => <TpLinkCopy key={tplink._id} tplink={tplink}></TpLinkCopy>)
+                    }
+                    {
+                        ramAdatas.slice(2, 3).map(adata => <AdataCopy key={adata._id} adata={adata}></AdataCopy>)
                     }
                 </div>
             </div>

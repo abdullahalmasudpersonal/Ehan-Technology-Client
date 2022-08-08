@@ -1,0 +1,67 @@
+[
+    {
+        "_id":"564511dfghs2df",
+        "model":"HP Pro M454dw Single Function Color Laser Printer #W1Y45A",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/hp-107w-single-function-laser-printer-41582088670.webp",
+        "price":" 72,590",
+        "brand":"HP",
+        "status": "In Stock",
+        "facilities1": "Functions Print Only",
+        "facilities2": "Output Color Color",
+        "facilities3": "Print Speed (Black) 27ppm",
+        "facilities4": "Interface (Built-in) USB, LAN, WiFi",
+        "facilities5": "Single Function Color Laser Printer"
+    },
+    {
+        "_id":"564511dfghs2df",
+        "model":"HP Pro M454dw Single Function Color Laser Printer #W1Y45A",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/hp-laserjet-pro-mfp-m26a-printer-11547273852.webp",
+        "price":" 72,590",
+        "brand":"HP",
+        "status": "In Stock",
+        "facilities1": "Functions Print Only",
+        "facilities2": "Output Color Color",
+        "facilities3": "Print Speed (Black) 27ppm",
+        "facilities4": "Interface (Built-in) USB, LAN, WiFi",
+        "facilities5": "Single Function Color Laser Printer"
+    },
+    {
+        "_id":"564511dfghs2df",
+        "model":"HP Pro M454dw Single Function Color Laser Printer #W1Y45A",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/hp-laser-mfp-137fnw-printer-11574658729.webp",
+        "price":" 72,590",
+        "brand":"HP",
+        "status": "In Stock",
+        "facilities1": "Functions Print Only",
+        "facilities2": "Output Color Color",
+        "facilities3": "Print Speed (Black) 27ppm",
+        "facilities4": "Interface (Built-in) USB, LAN, WiFi",
+        "facilities5": "Single Function Color Laser Printer"
+    },
+    {
+        "_id":"564511dfghs2df",
+        "model":"HP Pro M454dw Single Function Color Laser Printer #W1Y45A",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/small/hp-pro-m455dn-single-function-color-laser-printer-11642845570.webp",
+        "price":" 72,590",
+        "brand":"HP",
+        "status": "In Stock",
+        "facilities1": "Functions Print Only",
+        "facilities2": "Output Color Color",
+        "facilities3": "Print Speed (Black) 27ppm",
+        "facilities4": "Interface (Built-in) USB, LAN, WiFi",
+        "facilities5": "Single Function Color Laser Printer"
+    },
+    {
+        "_id":"564511dfghs2df",
+        "model":"HP Pro M454dw Single Function Color Laser Printer #W1Y45A",
+        "img":"https://www.cloud.ryanscomputers.com/cdn/products/medium/hp-pro-m454dw-single-function-color-laser-printer-11594794669.webp",
+        "price":" 72,590",
+        "brand":"HP",
+        "status": "In Stock",
+        "facilities1": "Functions Print Only",
+        "facilities2": "Output Color Color",
+        "facilities3": "Print Speed (Black) 27ppm",
+        "facilities4": "Interface (Built-in) USB, LAN, WiFi",
+        "facilities5": "Single Function Color Laser Printer"
+    }
+]

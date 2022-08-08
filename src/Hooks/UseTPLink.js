@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 
 const useTpLink = () => {
-    const [tpLink, setTpLink] = useState([]);
+    const [tpLinks, setTpLinks] = useState([]);
 
     useEffect( () => {
         fetch('http://localhost:5000/tplinks')
         .then(res => res.json())
-        .then(data => setTpLink(data));
+        .then(data => setTpLinks(data));
     },[]);
-    return [tpLink, setTpLink]
+    return [tpLinks, setTpLinks]
 };
 
 export default useTpLink;

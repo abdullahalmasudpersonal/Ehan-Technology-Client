@@ -346,15 +346,20 @@ const Header = () => {
                                         </div>
                                     </li>
                                     <li className='dropdown2'>
-                                        <Link to='/keyboard'>
+                                        <Link to='/rams'>
                                             <div className='d-flex justify-content-between align-items-center'>
                                                 <a>Ram</a>
                                                 <FontAwesomeIcon icon={faCaretRight} />
                                             </div>
                                         </Link>
                                         <div class="dropdown-content2">
-                                            <Link to='/micropacks'>< >Micropack</></Link>
-                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                            <Link to='/ram-adatas'>< >Adata</></Link>
+                                            <Link to='/hikvisions'>< >HP</></Link>
+                                            <Link to='/hikvisions'>< >Gigabite</></Link>
+                                            <Link to='/hikvisions'>< >Team</></Link>
+                                            <Link to='/hikvisions'>< >Corsair</></Link>
+                                            <Link to='/hikvisions'>< >G.Skill</></Link>
+                                            <Link to='/hikvisions'>< >Apacer</></Link>
                                         </div>
                                     </li>
                                     <li className='dropdown2'>
@@ -1359,8 +1364,13 @@ const Header = () => {
                                             </div>
                                         </Link>
                                         <div class="dropdown-content2">
-                                            <Link to='/micropacks'>< >Micropack</></Link>
-                                            <Link to='/hikvisions'>< >HikVision</></Link>
+                                            <Link to='/micropacks'>< >Sony</></Link>
+                                            <Link to='/hikvisions'>< >Havit</></Link>
+                                            <Link to='/hikvisions'>< >Redner</></Link>
+                                            <Link to='/hikvisions'>< >Digital-X</></Link>
+                                            <Link to='/hikvisions'>< >Astrun</></Link>
+                                            <Link to='/hikvisions'>< >Xtreme</></Link>
+                                            <Link to='/hikvisions'>< >JBL</></Link>
                                         </div>
                                     </li>
                                     <li className='dropdown2'>

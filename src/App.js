@@ -30,6 +30,8 @@ import Router from './Pages/Networking/Router/Router/Router';
 import Dells from './Pages/Monitors/Dells/Dells';
 import OfficeEquipments from './Pages/OfficeEquipments/OfficeEquipments/OfficeEquipments';
 import Storages from './Pages/Storages/Storages/Storages';
+import Adatas from './Pages/Components/Rams/Adatas/Adatas';
+import Rams from './Pages/Components/Rams/Rams/Rams';
 
 
 
@@ -55,6 +57,8 @@ function App() {
         <Route path='/intels/:intelId' element={<IntelBuyNow />} />
         <Route path='/amds' element={<AMDS />} />
         <Route path='/amds/:amdId' element={<AMDBuyNow />} />
+        <Route path='/rams' element={<Rams />} />
+        <Route path='/ram-adatas' element={<Adatas />} />
         {/* --------------- end Components --------------- */}
         {/* --------------- start Networking --------------- */}
         <Route path='/router' element={<Router />} />

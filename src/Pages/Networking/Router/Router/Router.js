@@ -4,13 +4,13 @@ import TpLink from '../TPLinks/TPLink/TPLink';
 import './Router.css';
 
 const Router = () => {
-    const [tpLink, setTpLink] = useTpLink([]);
+    const [tpLinks, setTpLinks] = useTpLink([]);
 
     return (
         <div className='container-xxl'>
             <div className='router-dev py-5'>
                 {
-                    tpLink./* slice(3, 4). */map(tplink => <TpLink key={tplink._id} tplink={tplink}></TpLink>)
+                    tpLinks./* slice(3, 4). */map(tplink => <TpLink key={tplink._id} tplink={tplink}></TpLink>)
                 }
             </div>
         </div>
