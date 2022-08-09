@@ -32,6 +32,8 @@ import OfficeEquipments from './Pages/OfficeEquipments/OfficeEquipments/OfficeEq
 import Storages from './Pages/Storages/Storages/Storages';
 import Adatas from './Pages/Components/Rams/Adatas/Adatas';
 import Rams from './Pages/Components/Rams/Rams/Rams';
+import DellBuyNow from './Pages/Monitors/Dells/DellBuyNow/DellBuyNow';
+import AdataBuyNow from './Pages/Components/Rams/Adatas/AdataBuyNow/AdataBuyNow';
 
 
 
@@ -48,7 +50,8 @@ function App() {
         </Route>
         {/* --------------- start Monitors --------------- */}
         <Route path='/monitors' element={<Monitors />} />
-        <Route path='dells' element={<Dells />} />
+        <Route path='monitor-dells' element={<Dells />} />
+        <Route path='monitor-dells/:dellId' element={<DellBuyNow />} />
         {/* --------------- end Monitors --------------- */}
         {/* --------------- start Components --------------- */}
         <Route path='/components' element={<Components />} />
@@ -59,6 +62,7 @@ function App() {
         <Route path='/amds/:amdId' element={<AMDBuyNow />} />
         <Route path='/rams' element={<Rams />} />
         <Route path='/ram-adatas' element={<Adatas />} />
+        <Route path='/ram-adatas/:ramAdataId' element={<AdataBuyNow />} />
         {/* --------------- end Components --------------- */}
         {/* --------------- start Networking --------------- */}
         <Route path='/router' element={<Router />} />

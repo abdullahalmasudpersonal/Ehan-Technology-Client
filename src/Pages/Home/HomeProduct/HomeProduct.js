@@ -5,13 +5,16 @@ import useIntel from '../../../Hooks/UseIntel';
 import useMicropack from '../../../Hooks/useMicropack';
 import useRamAdata from '../../../Hooks/UseRamAdata';
 import useTpLink from '../../../Hooks/UseTPLink';
+import useMonitorDell from '../../../Hooks/UseMonitorDell';
 import MicropackCopy from '../../Accessories/Keyboard/Micropacks/Micropack/MicropackCopy';
 import AMDCopy from '../../Components/Processor/AMDS/AMD/AMDCopy';
 import IntelCopy from '../../Components/Processor/Intels/Intel/IntelCopy';
 import AdataCopy from '../../Components/Rams/Adatas/Adata/AdataCopy';
 import TpLinkCopy from '../../Networking/Router/TPLinks/TPLink/TPLinkCopy';
 import HikvisionCopy from '../../Security/CcCamera/Hikvisions/Hikvision/HikvisionCopy';
+
 import './HomeProduct.css';
+import DellCopy from '../../Monitors/Dells/Dell/DellCopy';
 
 const HomeProduct = () => {
     const [hikvisions, setHikvisions] = useHikvision([]);
@@ -20,6 +23,7 @@ const HomeProduct = () => {
     const [intels, setIntels] = useIntel([]);
     const [tpLink, setTpLink] = useTpLink([]);
     const [ramAdatas, setRamAdatas] = useRamAdata([]);
+    const [monitorDells, setMonitorDells] = useMonitorDell([]);
 
     return (
         <div className='homeProductBg'>
@@ -48,6 +52,9 @@ const HomeProduct = () => {
                     }
                     {
                         ramAdatas.slice(2, 3).map(adata => <AdataCopy key={adata._id} adata={adata}></AdataCopy>)
+                    }
+                    {
+                        monitorDells.slice(2, 3).map(monitorDell => <DellCopy key={monitorDell._id} monitorDell={monitorDell}></DellCopy>)
                     }
                 </div>
             </div>

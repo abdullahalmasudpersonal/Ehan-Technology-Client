@@ -1,0 +1,49 @@
+.dell-dev-bg{
+    display: flex;
+    grid-gap: 8px;
+    justify-content: center;
+}
+.dell-dev{
+    position: relative;
+    height: 500px;
+    width: 250px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(214, 214, 213);
+}
+.dell-dev img{
+    border-radius: 4px 4px 0 0;
+}
+.dell-btn{
+    position:  absolute;
+    bottom: 10px;
+    width: 100%;
+}
+.dell-btn button{
+    font-weight: bold;
+    width: 90%;
+    height: 35px;
+    margin-left: 5%;
+    border-radius: 4px;
+    border: 1px solid rgb(148, 148, 253);
+    background-color: rgb(221, 224, 250);
+}
+.dell-btn button:hover{
+    background-color: rgb(0, 16, 160);
+    color: aliceblue;
+}
+@media screen and (min-width:1300px){
+    .dell-dev-bg{
+        
+    }
+}
+/********** dell Copy start ***********/
+.dell-dev-copy{
+    position: relative;
+    height: 370px;
+    width: 250px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(214, 214, 213);
+}
+/*********** dell Copy End ***********/

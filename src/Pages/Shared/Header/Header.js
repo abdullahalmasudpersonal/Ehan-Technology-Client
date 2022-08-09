@@ -229,7 +229,7 @@ const Header = () => {
                                 </Link>
                                 <div className='dropdown-content'>
                                     <li className='dropdown2'>
-                                        <Link to='/dells'>
+                                        <Link to='/monitor-dells'>
                                             <div className='d-flex justify-content-between align-items-center'>
                                                 <a>Dell</a>
                                             </div>
