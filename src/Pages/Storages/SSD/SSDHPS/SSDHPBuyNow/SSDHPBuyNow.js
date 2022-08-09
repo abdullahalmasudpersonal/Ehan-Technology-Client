@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import './SSDBuyNow.css';
+import './SSDHPBuyNow.css';
 
-const SSDBuyNow = () => {
+const SSDHPBuyNow = () => {
     const { ssdhpId } = useParams();
     const [ssdhp, setsssdhp] = useState({});
     useEffect(() => {
@@ -50,4 +50,4 @@ const SSDBuyNow = () => {
     );
 };
 
-export default SSDBuyNow;
+export default SSDHPBuyNow;

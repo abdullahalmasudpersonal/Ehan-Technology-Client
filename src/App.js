@@ -36,10 +36,13 @@ import DellBuyNow from './Pages/Monitors/Dells/DellBuyNow/DellBuyNow';
 import AdataBuyNow from './Pages/Components/Rams/Adatas/AdataBuyNow/AdataBuyNow';
 import HPs from './Pages/OfficeEquipments/Printers/HPs/HPs';
 import HPsBuyNow from './Pages/OfficeEquipments/Printers/HPs/HPsBuyNow/HPsBuyNow';
-import SSDs from './Pages/Storages/SSDs/SSDs';
-import SSDBuyNow from './Pages/Storages/SSDs/SSDBuyNow/SSDBuyNow';
 import DigitalXs from './Pages/SoundSystem/Speakers/DigitalXs/DigitalXs';
 import DigitalXBuyNow from './Pages/SoundSystem/Speakers/DigitalXs/DigitalXBuyNow/DigitalXBuyNow';
+import SSDHPS from './Pages/Storages/SSD/SSDHPS/SSDPHS';
+import SSDHPBuyNow from './Pages/Storages/SSD/SSDHPS/SSDHPBuyNow/SSDHPBuyNow';
+import SSD from './Pages/Storages/SSD/SSD/SSD';
+import Speaker from './Pages/SoundSystem/Speakers/Speaker/Speaker';
+import Printers from './Pages/OfficeEquipments/Printers/Printers/Printers';
 
 
 
@@ -77,6 +80,7 @@ function App() {
         {/* --------------- end Networking --------------- */}
         {/* --------------- start Office Equipment --------------- */}
         <Route path='/officeEquipment' element={<OfficeEquipments />} />
+        <Route path='/printer' element={<Printers />} />
         <Route path='/printer-hps' element={<HPs />} />
         <Route path='/printer-hps/:printerHpId' element={<HPsBuyNow />} />
         {/* --------------- end Office Equipment --------------- */}
@@ -95,10 +99,12 @@ function App() {
         {/* --------------- end Security --------------- */}
         {/* --------------- Start Storage --------------- */}
         <Route path='/storage' element={<Storages />} />
-        <Route path='/ssd-hps' element={<SSDs />} />
-        <Route path='/ssd-hps/:ssdhpId' element={<SSDBuyNow />} />
+        <Route path='/ssd' element={<SSD />} />
+        <Route path='/ssd-hps' element={<SSDHPS />} />
+        <Route path='/ssd-hps/:ssdhpId' element={<SSDHPBuyNow />} />
         {/* --------------- end Storage --------------- */}
         {/* ---------------start sound system --------------- */}
+        <Route path='/speaker' element={<Speaker />} />
         <Route path='/speakerDigitalXs' element={<DigitalXs />} />
         <Route path='/speakerDigitalXs/:speakerDigitalXId' element={<DigitalXBuyNow />} />
         {/* -------------- end Sound system --------------- */}

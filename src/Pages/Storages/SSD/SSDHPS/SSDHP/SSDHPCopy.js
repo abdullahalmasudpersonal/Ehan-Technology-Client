@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './SSD.css';
+import './SSDHP.css';
 
-const SSDCopy = ({ssdhp}) => {
+const SSDHPCopy = ({ssdhp}) => {
     const { _id, img, model, price, facilities1, facilities2, facilities3, facilities4 } = ssdhp;
 
     const navigate = useNavigate();
@@ -33,4 +33,4 @@ const SSDCopy = ({ssdhp}) => {
     );
 };
 
-export default SSDCopy;
+export default SSDHPCopy;

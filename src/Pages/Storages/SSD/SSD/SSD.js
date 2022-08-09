@@ -1,15 +1,14 @@
 import React from 'react';
-import useSSDHP from '../../../Hooks/UseSSDHP';
-import SSDHP from '../SSD/SSDHPS/SSDHP/SSDHP';
-import './Storages.css';
+import useSSDHP from '../../../../Hooks/UseSSDHP';
+import SSDHP from '../SSDHPS/SSDHP/SSDHP';
 
-const Storages = () => {
+const SSD = () => {
     const [ssdhps, setSsdhps] = useSSDHP([]);
 
     return (
         <div className='container-xxl'>
             <div className='router-dev py-5'>
-            {
+                {
                     ssdhps.map(ssdhp => <SSDHP key={ssdhp._id} ssdhp={ssdhp}></SSDHP>)
                 }
             </div>
@@ -17,4 +16,4 @@ const Storages = () => {
     );
 };
 
-export default Storages;
+export default SSD;

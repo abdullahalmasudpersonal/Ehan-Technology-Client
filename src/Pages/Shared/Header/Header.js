@@ -553,7 +553,7 @@ const Header = () => {
                                 </Link>
                                 <div className='dropdown-content'>
                                     <li className='dropdown2'>
-                                        <Link to='/keyboard'>
+                                        <Link to='/printer'>
                                             <div className='d-flex justify-content-between align-items-center'>
                                                 <a>Printer</a>
                                                 <FontAwesomeIcon icon={faCaretRight} />
@@ -1272,7 +1272,7 @@ const Header = () => {
                                 </Link>
                                 <div className='dropdown-content'>
                                     <li className='dropdown2'>
-                                        <Link to='/storage'>
+                                        <Link to='/ssd'>
                                             <div className='d-flex justify-content-between align-items-center'>
                                                 <a>SSD</a>
                                                 <FontAwesomeIcon icon={faCaretRight} />
@@ -1357,7 +1357,7 @@ const Header = () => {
                                 </Link>
                                 <div className='dropdown-content'>
                                     <li className='dropdown2'>
-                                        <Link to='/keyboard'>
+                                        <Link to='/speaker'>
                                             <div className='d-flex justify-content-between align-items-center'>
                                                 <a>Speaker</a>
                                                 <FontAwesomeIcon icon={faCaretRight} />

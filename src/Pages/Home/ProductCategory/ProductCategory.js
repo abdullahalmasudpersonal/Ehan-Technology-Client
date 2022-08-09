@@ -49,22 +49,26 @@ const ProductCategory = () => {
                             <h5 className='text-center'>Laptop</h5>
                         </div>
                     </div>
-                    <div className='pro-category-dev'>
-                        <div className='pro-category-font py-3'>
-                            <img src={Monitor} width='50px' alt='' />
+                    <Link style={{ textDecoration: 'none' }} to='/monitors'>
+                        <div className='pro-category-dev'>
+                            <div className='pro-category-font py-3'>
+                                <img src={Monitor} width='50px' alt='' />
+                            </div>
+                            <div>
+                                <h5 className='txtdacoration text-center'>Monitor</h5>
+                            </div>
                         </div>
-                        <div>
-                            <h5 className='text-center'>Monitor</h5>
+                    </Link>
+                    <Link style={{ textDecoration: 'none' }} to='/security-cc-camera'>
+                        <div className='pro-category-dev'>
+                            <div className='pro-category-font py-3'>
+                                <img src={Camera} width='50px' alt='' />
+                            </div>
+                            <div>
+                                <h5 className='txtdacoration text-center'>Camera</h5>
+                            </div>
                         </div>
-                    </div>
-                    <div className='pro-category-dev'>
-                        <div className='pro-category-font py-3'>
-                            <img src={Camera} width='50px' alt='' />
-                        </div>
-                        <div>
-                            <h5 className='text-center'>Camera</h5>
-                        </div>
-                    </div>
+                    </Link>
                     <Link style={{ textDecoration: 'none' }} to='/router'>
                         <div className='pro-category-dev'>
                             <div className='pro-category-font py-3'>
@@ -85,22 +89,26 @@ const ProductCategory = () => {
                             </div>
                         </div>
                     </Link>
-                    <div className='pro-category-dev'>
-                        <div className='pro-category-font py-3'>
-                            <img src={Storage} width='50px' alt='' />
+                    <Link style={{ textDecoration: 'none' }} to='/storage'>
+                        <div className='pro-category-dev'>
+                            <div className='pro-category-font py-3'>
+                                <img src={Storage} width='50px' alt='' />
+                            </div>
+                            <div>
+                                <h5 className='txtdacoration text-center'>Storage</h5>
+                            </div>
                         </div>
-                        <div>
-                            <h5 className='text-center'>Storage</h5>
+                    </Link>
+                    <Link style={{ textDecoration: 'none' }} to='/speaker'>
+                        <div className='pro-category-dev'>
+                            <div className='pro-category-font py-3'>
+                                <img src={Speaker} width='50px' alt='' />
+                            </div>
+                            <div>
+                                <h5 className='txtdacoration text-center'>Speaker</h5>
+                            </div>
                         </div>
-                    </div>
-                    <div className='pro-category-dev'>
-                        <div className='pro-category-font py-3'>
-                            <img src={Speaker} width='50px' alt='' />
-                        </div>
-                        <div>
-                            <h5 className='text-center'>Speaker</h5>
-                        </div>
-                    </div>
+                    </Link>
                     <div className='pro-category-dev'>
                         <div className='pro-category-font py-3'>
                             <img src={HeadPhone} width='50px' alt='' />
@@ -119,14 +127,16 @@ const ProductCategory = () => {
                             </div>
                         </div>
                     </Link>
-                    <div className='pro-category-dev'>
-                        <div className='pro-category-font py-3'>
-                            <img src={Keybord} width='50px' alt='' />
+                    <Link style={{ textDecoration: 'none' }} to='/keyboard'>
+                        <div className='pro-category-dev'>
+                            <div className='pro-category-font py-3'>
+                                <img src={Keybord} width='50px' alt='' />
+                            </div>
+                            <div>
+                                <h5 className='txtdacoration text-center'>Keybord</h5>
+                            </div>
                         </div>
-                        <div>
-                            <h5 className='text-center'>Keybord</h5>
-                        </div>
-                    </div>
+                    </Link>
                     <div className='pro-category-dev'>
                         <div className='pro-category-font py-3'>
                             <img src={Converter} width='50px' alt='' />

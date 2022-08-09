@@ -1,9 +1,9 @@
 import React from 'react';
-import useSSDHP from '../../../Hooks/UseSSDHP';
-import SSD from './SSD/SSD';
-import './SSDs.css';
+import useSSDHP from '../../../../Hooks/UseSSDHP';
+import SSDHP from './SSDHP/SSDHP';
+import './SSDHPS.css';
 
-const SSDs = () => {
+const SSDHPS = () => {
     const [ssdhps, setSsdhps] = useSSDHP([]);
 
     return (
@@ -11,7 +11,7 @@ const SSDs = () => {
         <div className='container-xxl'>
             <div className='ms-1 ssdhp-dev py-5'>
                 {
-                    ssdhps.map(ssdhp => <SSD key={ssdhp._id} ssdhp={ssdhp}></SSD>)
+                    ssdhps.map(ssdhp => <SSDHP key={ssdhp._id} ssdhp={ssdhp}></SSDHP>)
                 }
             </div>
         </div>
@@ -19,4 +19,4 @@ const SSDs = () => {
     );
 };
 
-export default SSDs;
+export default SSDHPS;
