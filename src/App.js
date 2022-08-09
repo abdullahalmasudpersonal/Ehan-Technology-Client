@@ -36,6 +36,10 @@ import DellBuyNow from './Pages/Monitors/Dells/DellBuyNow/DellBuyNow';
 import AdataBuyNow from './Pages/Components/Rams/Adatas/AdataBuyNow/AdataBuyNow';
 import HPs from './Pages/OfficeEquipments/Printers/HPs/HPs';
 import HPsBuyNow from './Pages/OfficeEquipments/Printers/HPs/HPsBuyNow/HPsBuyNow';
+import SSDs from './Pages/Storages/SSDs/SSDs';
+import SSDBuyNow from './Pages/Storages/SSDs/SSDBuyNow/SSDBuyNow';
+import DigitalXs from './Pages/SoundSystem/Speakers/DigitalXs/DigitalXs';
+import DigitalXBuyNow from './Pages/SoundSystem/Speakers/DigitalXs/DigitalXBuyNow/DigitalXBuyNow';
 
 
 
@@ -89,9 +93,15 @@ function App() {
         <Route path='/hikvisions' element={<Hikvisions />} />
         <Route path='/hikvisions/:hikvisionId' element={<HikvisionsBuyNow />} />
         {/* --------------- end Security --------------- */}
-        {/* --------------- end Storage --------------- */}
+        {/* --------------- Start Storage --------------- */}
         <Route path='/storage' element={<Storages />} />
+        <Route path='/ssd-hps' element={<SSDs />} />
+        <Route path='/ssd-hps/:ssdhpId' element={<SSDBuyNow />} />
         {/* --------------- end Storage --------------- */}
+        {/* ---------------start sound system --------------- */}
+        <Route path='/speakerDigitalXs' element={<DigitalXs />} />
+        <Route path='/speakerDigitalXs/:speakerDigitalXId' element={<DigitalXBuyNow />} />
+        {/* -------------- end Sound system --------------- */}
       </Routes>
       <Footer />
     </div>

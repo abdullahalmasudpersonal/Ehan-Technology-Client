@@ -1,0 +1,49 @@
+.speakerDigitalx-dev-bg{
+    display: flex;
+    grid-gap: 8px;
+    justify-content: center;
+}
+.speakerDigitalx-dev{
+    position: relative;
+    height: 500px;
+    width: 250px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(214, 214, 213);
+}
+.speakerDigitalx-dev img{
+    border-radius: 4px 4px 0 0;
+}
+.speakerDigitalx-btn{
+    position:  absolute;
+    bottom: 10px;
+    width: 100%;
+}
+.speakerDigitalx-btn button{
+    font-weight: bold;
+    width: 90%;
+    height: 35px;
+    margin-left: 5%;
+    border-radius: 4px;
+    border: 1px solid rgb(148, 148, 253);
+    background-color: rgb(221, 224, 250);
+}
+.speakerDigitalx-btn button:hover{
+    background-color: rgb(0, 16, 160);
+    color: aliceblue;
+}
+@media screen and (min-width:1300px){
+    .speakerDigitalx-dev-bg{
+        
+    }
+}
+/********** speakerDigitalx Copy start ***********/
+.speakerDigitalx-dev-copy{
+    position: relative;
+    height: 370px;
+    width: 250px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(214, 214, 213);
+}
+/*********** speakerDigitalx Copy End ***********/

@@ -1,16 +1,16 @@
 
- .speakerDigitalX-detail-dev-main{
+ .ssdhp-detail-dev-main{
     padding: 20px 0;
     grid-gap: 7px;
     display: flex;
 } 
-.speakerDigitalX-detail-dev1{
+.ssdhp-detail-dev1{
     height: 600px;
     width: 600px;
     border: 2px solid blue;
     background-color: rgb(255, 255, 255);
 }
- .speakerDigitalX-detail-dev2{
+ .ssdhp-detail-dev2{
     height: 600px;
     width: 696px;
     padding: 10px;

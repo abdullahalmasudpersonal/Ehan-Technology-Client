@@ -17,6 +17,10 @@ import './HomeProduct.css';
 import DellCopy from '../../Monitors/Dells/Dell/DellCopy';
 import usePrinterHP from '../../../Hooks/UsePrinterHP';
 import HpCopy from '../../OfficeEquipments/Printers/HPs/HP/HpCopy';
+import useSSDHP from '../../../Hooks/UseSSDHP';
+import SSDCopy from '../../Storages/SSDs/SSD/SSDCopy';
+import useSpeakerDigitalX from '../../../Hooks/UseSpeakerDigitalX';
+import DigitalXCopy from '../../SoundSystem/Speakers/DigitalXs/DigitalX/DigitalXCopy';
 
 const HomeProduct = () => {
     const [hikvisions, setHikvisions] = useHikvision([]);
@@ -27,6 +31,8 @@ const HomeProduct = () => {
     const [ramAdatas, setRamAdatas] = useRamAdata([]);
     const [monitorDells, setMonitorDells] = useMonitorDell([]);
     const [printerHPs, setPrinterHPs] = usePrinterHP([]);
+    const [ssdhps, setSsdhps] = useSSDHP([]);
+    const [speakerDigitalXs, setSpeakerDigitalXs] = useSpeakerDigitalX([]);
  
     return (
         <div className='homeProductBg'>
@@ -61,6 +67,12 @@ const HomeProduct = () => {
                     }
                     {
                         printerHPs.slice(2, 3).map(printerhp => <HpCopy key={printerhp._id} printerhp={printerhp}></HpCopy>)
+                    }
+                    {
+                        ssdhps.slice(2, 3).map(ssdhp => <SSDCopy key={ssdhp._id} ssdhp={ssdhp}></SSDCopy>)
+                    }
+                    {
+                        speakerDigitalXs.slice(2, 3).map(speakerDigitalX => <DigitalXCopy key={speakerDigitalX._id} speakerDigitalX={speakerDigitalX}></DigitalXCopy>)
                     }
                 </div>
             </div>

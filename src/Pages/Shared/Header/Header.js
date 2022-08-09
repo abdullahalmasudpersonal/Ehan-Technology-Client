@@ -1279,7 +1279,7 @@ const Header = () => {
                                             </div>
                                         </Link>
                                         <div class="dropdown-content2">
-                                            <Link to='/micropacks'>< >HP</></Link>
+                                            <Link to='/ssd-hps'>< >HP</></Link>
                                             <Link to='/hikvisions'>< >ADATA</></Link>
                                             <Link to='/hikvisions'>< >Samsung</></Link>
                                             <Link to='/hikvisions'>< >Intel</></Link>
@@ -1367,7 +1367,7 @@ const Header = () => {
                                             <Link to='/micropacks'>< >Sony</></Link>
                                             <Link to='/hikvisions'>< >Havit</></Link>
                                             <Link to='/hikvisions'>< >Redner</></Link>
-                                            <Link to='/hikvisions'>< >Digital-X</></Link>
+                                            <Link to='/speakerDigitalXs'>< >Digital-X</></Link>
                                             <Link to='/hikvisions'>< >Astrun</></Link>
                                             <Link to='/hikvisions'>< >Xtreme</></Link>
                                             <Link to='/hikvisions'>< >JBL</></Link>

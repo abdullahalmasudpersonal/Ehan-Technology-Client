@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './SSD.css';
 
-const SSD = ({ssdhp}) => {
+const SSDCopy = ({ssdhp}) => {
     const { _id, img, model, price, facilities1, facilities2, facilities3, facilities4 } = ssdhp;
 
     const navigate = useNavigate();
@@ -12,24 +12,25 @@ const SSD = ({ssdhp}) => {
 
     return (
         <div className='ssdhp1-dev-bg py-1'>
-            <div className='ssdhp1-dev'>
+            <div className='ssdhp1-dev-copy'>
                 <img style={{ height: '230px', width: '248px' }} src={img} alt='' />
+                <p className='text-center fw-bold'>Storage</p>
                 <h6 onClick={() => navigateToHikvisionDetail(_id)} style={{ fontSize: '14px', cursor: 'pointer' }} className='mx-2 mt-2 fw-bold'>{model}</h6>
                 <small>
-                    <ul>
+               {/*  <ul>
                         <small><li>{facilities1}</li></small>
                         <small><li>{facilities2}</li></small>
                         <small><li>{facilities3}</li></small>
                         <small><li>{facilities4}</li></small>
-                    </ul>
+                    </ul> */}
                 </small>
                 <div className='ssdhp1-btn'>
                     <p className='fw-bold text-center'>Tk {price}</p>
-                    <button onClick={() => navigateToHikvisionDetail(_id)} className=''>Buy Now</button>
+                   {/*  <button onClick={() => navigateToHikvisionDetail(_id)} className=''>Buy Now</button> */}
                 </div>
             </div>
         </div>
     );
 };
 
-export default SSD;
+export default SSDCopy;
