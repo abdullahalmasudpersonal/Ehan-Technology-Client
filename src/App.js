@@ -34,6 +34,8 @@ import Adatas from './Pages/Components/Rams/Adatas/Adatas';
 import Rams from './Pages/Components/Rams/Rams/Rams';
 import DellBuyNow from './Pages/Monitors/Dells/DellBuyNow/DellBuyNow';
 import AdataBuyNow from './Pages/Components/Rams/Adatas/AdataBuyNow/AdataBuyNow';
+import HPs from './Pages/OfficeEquipments/Printers/HPs/HPs';
+import HPsBuyNow from './Pages/OfficeEquipments/Printers/HPs/HPsBuyNow/HPsBuyNow';
 
 
 
@@ -71,6 +73,8 @@ function App() {
         {/* --------------- end Networking --------------- */}
         {/* --------------- start Office Equipment --------------- */}
         <Route path='/officeEquipment' element={<OfficeEquipments />} />
+        <Route path='/printer-hps' element={<HPs />} />
+        <Route path='/printer-hps/:printerHpId' element={<HPsBuyNow />} />
         {/* --------------- end Office Equipment --------------- */}
         {/* --------------- start Accessories --------------- */}
         <Route path='/accessories' element={<Accessories />} />

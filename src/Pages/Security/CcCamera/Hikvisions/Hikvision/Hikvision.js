@@ -11,8 +11,7 @@ const Hikvision = ({ hikvision }) => {
     }
 
     return (
-        <div>
-            <div className='hikvision-dev-bg py-1'>
+        <div className='hikvision-dev-bg py-1'>
                 <div className='hikvision-dev'>
                     <img style={{ height: '230px', width: '248px' }} src={img} alt='' />
                         <h6 onClick={() => navigateToHikvisionDetail(_id)} style={{fontSize:'14px', cursor:'pointer'}} className='mx-2 mt-2 fw-bold'>{model}</h6>
@@ -30,7 +29,6 @@ const Hikvision = ({ hikvision }) => {
                     </div>
                 </div>
             </div>
-        </div>
     );
 };
 

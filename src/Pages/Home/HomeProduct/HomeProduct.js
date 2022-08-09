@@ -15,6 +15,8 @@ import HikvisionCopy from '../../Security/CcCamera/Hikvisions/Hikvision/Hikvisio
 
 import './HomeProduct.css';
 import DellCopy from '../../Monitors/Dells/Dell/DellCopy';
+import usePrinterHP from '../../../Hooks/UsePrinterHP';
+import HpCopy from '../../OfficeEquipments/Printers/HPs/HP/HpCopy';
 
 const HomeProduct = () => {
     const [hikvisions, setHikvisions] = useHikvision([]);
@@ -24,7 +26,8 @@ const HomeProduct = () => {
     const [tpLink, setTpLink] = useTpLink([]);
     const [ramAdatas, setRamAdatas] = useRamAdata([]);
     const [monitorDells, setMonitorDells] = useMonitorDell([]);
-
+    const [printerHPs, setPrinterHPs] = usePrinterHP([]);
+ 
     return (
         <div className='homeProductBg'>
             <div className='container-xxl'>
@@ -55,6 +58,9 @@ const HomeProduct = () => {
                     }
                     {
                         monitorDells.slice(2, 3).map(monitorDell => <DellCopy key={monitorDell._id} monitorDell={monitorDell}></DellCopy>)
+                    }
+                    {
+                        printerHPs.slice(2, 3).map(printerhp => <HpCopy key={printerhp._id} printerhp={printerhp}></HpCopy>)
                     }
                 </div>
             </div>

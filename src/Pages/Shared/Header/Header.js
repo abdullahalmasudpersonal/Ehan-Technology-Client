@@ -560,7 +560,7 @@ const Header = () => {
                                             </div>
                                         </Link>
                                         <div class="dropdown-content2">
-                                            <Link to='/micropacks'>< >HP</></Link>
+                                            <Link to='/printer-hps'>< >HP</></Link>
                                             <Link to='/hikvisions'>< >Cannon</></Link>
                                             <Link to='/hikvisions'>< >Samsung</></Link>
                                             <Link to='/hikvisions'>< >Epson</></Link>
