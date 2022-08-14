@@ -43,6 +43,7 @@ import SSDHPBuyNow from './Pages/Storages/SSD/SSDHPS/SSDHPBuyNow/SSDHPBuyNow';
 import SSD from './Pages/Storages/SSD/SSD/SSD';
 import Speaker from './Pages/SoundSystem/Speakers/Speaker/Speaker';
 import Printers from './Pages/OfficeEquipments/Printers/Printers/Printers';
+import Register from './Pages/Shared/Accounts/Register/Register';
 
 
 
@@ -51,6 +52,7 @@ function App() {
     <div>
       <Header />
       <Routes>
+        <Route path='register' element={<Register />} />
         <Route path='/' element={<Home />} />
         <Route path='/desktops' element={<Desktops />} />
         <Route path='/desktops/brandPc' element={<BrandPc />} />

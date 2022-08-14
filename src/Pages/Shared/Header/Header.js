@@ -3,7 +3,7 @@ import './Header.css';
 import logoName from '../../../assets/img/logo/logo&name.png';
 import account from '../../../assets/img/profile.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShoppingCart, faCaretRight } from '@fortawesome/free-solid-svg-icons';
+import { faShoppingCart, faArrowRightToBracket, faCaretRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -25,11 +25,14 @@ const Header = () => {
                     </div>
                     <div className='cardProfile'>
                         <div >
-                            <FontAwesomeIcon icon={faShoppingCart} style={{ color: 'orange', fontSize: '20px' }} />
+                            <FontAwesomeIcon icon={faShoppingCart} style={{ color: 'white', fontSize: '20px' }} />
                         </div>
-                        <div className='me-1'>
-                            <img src={account} height='25px' alt='' />
-                        </div>
+                        <Link to='/register'>
+                            <div className='me-1'>
+                                <FontAwesomeIcon icon={faArrowRightToBracket} style={{ color: 'orange', fontSize: '20px', cursor: 'pointer' }} />
+                                {/* <img src={account} height='25px' alt='' /> */}
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -50,7 +53,9 @@ const Header = () => {
                     {/* <a class="navbar-brand header-none" href="#">Navbar</a> */}
                     <div className='cardProfile header-none'>
                         <div className=''>
+                            <FontAwesomeIcon icon="fa-solid fa-arrow-right-to-bracket" />
                             <FontAwesomeIcon icon={faShoppingCart} style={{ color: 'orange', fontSize: '20px' }} />
+                            {/*  <FontAwesomeIcon icon={faShoppingCart} style={{ color: 'orange', fontSize: '20px' }} /> */}
                         </div>
                         <div className='me-4'>
                             <img src={account} height='25px' alt='' />
@@ -93,7 +98,7 @@ const Header = () => {
                                     <li className='dropdown2'>
                                         <Link to='/keyboard'>
                                             <div className='d-flex justify-content-between align-items-center'>
-                                                <a>All In One PC</a>
+                                                <a href='0' >All In One PC</a>
                                                 <FontAwesomeIcon icon={faCaretRight} />
                                             </div>
                                         </Link>
@@ -231,7 +236,7 @@ const Header = () => {
                                     <li className='dropdown2'>
                                         <Link to='/monitor-dells'>
                                             <div className='d-flex justify-content-between align-items-center'>
-                                                <a>Dell</a>
+                                                <a href='0'>Dell</a>
                                             </div>
                                         </Link>
                                     </li>
