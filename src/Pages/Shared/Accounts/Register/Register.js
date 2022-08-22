@@ -5,6 +5,9 @@ import { Alert, Button, Form } from 'react-bootstrap';
 import { Link, useNavigate } from 'react-router-dom';
 import { RecaptchaVerifier, signInWithPhoneNumber } from 'firebase/auth';
 import auth from '../../../../firebase.init';
+import './Register.css';
+import { useForm } from "react-hook-form";
+
 
 const Register = () => {
   const [number, setNumber] = useState('');
@@ -13,12 +16,18 @@ const Register = () => {
   const [flag, setFlag] = useState(false);
   const [confirmObj, setConfirmObj] = useState('');
   const navigate = useNavigate();
+  /* ---------------------- */
+ /*  const { register, formState: { errors }, handleSubmit } = useForm();
+  const [
+    createUserWithEmailAndPassword,
+    user1,
+    loading,
+    error1,
+  ] = useCreateUserWithEmailAndPassword(auth); */
 
   function setUpRecaptcha(number) {
     const recaptchaVerifier = new RecaptchaVerifier('recaptcha-container',
-      {},
-      auth
-    );
+      {}, auth);
     recaptchaVerifier.render();
     return signInWithPhoneNumber(auth, number, recaptchaVerifier);
   }
@@ -46,48 +55,65 @@ const Register = () => {
       setError('');
       await confirmObj.confirm(otp);
       navigate('/');
-    } catch(err) {
+    } catch (err) {
       setError(err.message);
     }
   };
 
   return (
-    <div className='p-4 box'>
-      <h3 className='mb-3'>Phone Authontation</h3>
-      {error && <Alert variant='danger'>{error}</Alert>}
-      <Form onSubmit={getOtp} style={{ display: !flag ? 'block' : 'none' }}>
-        <Form.Group className='mb-3' controlId='formBasicPhoneNumber'>
-          <PhoneInput
-            defaultCountry='BD'
-            value={number}
-            onChange={setNumber}
-            placeholder='Enter Phone Number'
-            style={{width:'250px'}}
-          />
-          <div id='recaptcha-container' />
-        </Form.Group>
-        <div className='button-right'>
-          <Link to='/'>
-            <Button variant='secondary'>Cancel</Button>
-          </Link>
-          <Button variant='primary' type='submit'>Send OTP</Button>
-        </div>
-      </Form>
+    <div className='register-bg'>
+      <div className='p-4 box '>
+        <h3 className='mb-3'>Phone Authontation</h3>
+        <Form onSubmit={getOtp} style={{ display: !flag ? 'block' : 'none' }}>
+          <Form.Group className='mb-3' controlId='formBasicPhoneNumber'>
+            {/* <input className='signup-input' type='email'
+              placeholder=' Email' autoComplete="off"
+              {...register("email", {
+                required: {
+                  value: true,
+                  message: 'Email is Required'
+                },
+                pattern: {
+                  value: /[a-z0-9]+[a-z]+\.[a-z]{2,3}/,
+                  message: 'Provide a valid Email'
+                }
+              })}
+            /> */}
+            <PhoneInput
+              defaultCountry='BD'
+              value={number}
+              onChange={setNumber}
+              placeholder='Enter Phone Number'
+              style={{ width: '250px', marginBottom: '10px' }}
+            />
+            {error && <Alert variant='danger'>{error}</Alert>}
+            <div id='recaptcha-container' />
+          </Form.Group>
+          <div className='button-right'>
+            <Link to='/'>
+              <Button className='me-2' variant='secondary'>Cancel</Button>
+            </Link>
+            <Button variant='primary' type='submit'>Send OTP</Button>
+          </div>
+        </Form>
 
-      <Form onSubmit={verifyOtp} style={{ display: flag ? 'block' : 'none' }}>
-        <Form.Group className='mb-3' controlId='formBasicotp'>
-          <Form.Control
-            type='otp'
-            placeholder='Enter OTP'
-            onChange={(e) => setOtp(e.target.value)} />
-        </Form.Group>
-        <div className='button-right'>
-          <Link to='/'>
-            <Button variant='secondary'>Cancel</Button>
-          </Link>
-          <Button variant='primary' type='submit'>Verify OTP</Button>
-        </div>
-      </Form>
+        <Form onSubmit={verifyOtp} style={{ display: flag ? 'block' : 'none' }}>
+          <Form.Group className='mb-3' controlId='formBasicotp'>
+            <Form.Control
+              type='otp'
+              placeholder='Enter OTP'
+              onChange={(e) => setOtp(e.target.value)}
+              style={{ width: '250px' }}
+            />
+          </Form.Group>
+          <div className='button-right'>
+            <Link to='/'>
+              <Button className='me-2' variant='secondary'>Cancel</Button>
+            </Link>
+            <Button variant='primary' type='submit'>Verify OTP</Button>
+          </div>
+        </Form>
+      </div>
     </div>
   );
 };

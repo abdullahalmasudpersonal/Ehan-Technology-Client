@@ -44,6 +44,7 @@ import SSD from './Pages/Storages/SSD/SSD/SSD';
 import Speaker from './Pages/SoundSystem/Speakers/Speaker/Speaker';
 import Printers from './Pages/OfficeEquipments/Printers/Printers/Printers';
 import Register from './Pages/Shared/Accounts/Register/Register';
+import Dashboard from './Pages/Dashboard/Dashboard';
 
 
 
@@ -110,6 +111,7 @@ function App() {
         <Route path='/speakerDigitalXs' element={<DigitalXs />} />
         <Route path='/speakerDigitalXs/:speakerDigitalXId' element={<DigitalXBuyNow />} />
         {/* -------------- end Sound system --------------- */}
+        <Route path='dashboard' element={<Dashboard />} />
       </Routes>
       <Footer />
     </div>

@@ -5,8 +5,12 @@ import account from '../../../assets/img/profile.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart, faArrowRightToBracket, faCaretRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import auth from '../../../firebase.init';
 
 const Header = () => {
+    const [user] = useAuthState(auth);
+
     return (
         <>
             <div className='header-top'>
@@ -27,12 +31,16 @@ const Header = () => {
                         <div >
                             <FontAwesomeIcon icon={faShoppingCart} style={{ color: 'white', fontSize: '20px' }} />
                         </div>
-                        <Link to='/register'>
-                            <div className='me-1'>
-                                <FontAwesomeIcon icon={faArrowRightToBracket} style={{ color: 'orange', fontSize: '20px', cursor: 'pointer' }} />
-                                {/* <img src={account} height='25px' alt='' /> */}
-                            </div>
-                        </Link>
+                        <div className='me-1'>
+                            {user ? <Link to='/dashboard'>
+                                <img src={account} height='25px' alt='' />
+                            </Link> :
+                                <Link to='/register'>
+                                    <FontAwesomeIcon icon={faArrowRightToBracket} style={{ color: 'orange', fontSize: '20px', cursor: 'pointer' }} />
+
+                                </Link>}
+                            {/* <img src={account} height='25px' alt='' /> */}
+                        </div>
                     </div>
                 </div>
             </div>
