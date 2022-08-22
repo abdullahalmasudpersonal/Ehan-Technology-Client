@@ -39,11 +39,13 @@ const HikvisionsBuyNow = () => {
                     </ul>
                     <p style={{ color: 'rgb(33, 73, 1)' }} className='fw-bold'>Available Product: {hikvision.available} Pisces</p>
 
-                    <button class="btn btn-default"><i class="fas fa-minus"></i></button>
+                    <button class="cc-hik-minus-button"><i class="fas fa-minus"></i></button>
 
-                    <input id='case-number' type='number' className='from-control text-center w-25' min='1' />
+                    <input id='case-number'   defaultValue='1' className='from-control cc-hik-input-button text-center ' min='1' />
 
-                    <button id='case-plus' class="btn btn-default"><i class="fas fa-plus"></i></button>
+                    <button id='case-plus' class="cc-hik-place-button"><i class="fas fa-plus"></i></button>
+
+                    <button className='cc-hik-order-btn'>Order NOw</button>
                 </div>
             </div>
         </div>

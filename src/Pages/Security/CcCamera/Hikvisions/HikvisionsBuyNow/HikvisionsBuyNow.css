@@ -17,9 +17,33 @@
     border: 2px solid rgb(33, 73, 1);
     background-color: rgb(248, 246, 244);
 } 
-.input-group .input{
-    width: 50px;
+.cc-hik-minus-button{
+    border: 1px solid gray;
+    background: none;
 }
+
+.cc-hik-input-button{
+    width: 70px;
+}
+.cc-hik-place-button{
+    border: 1px solid gray;
+    background: none;
+}
+.cc-hik-order-btn{
+    font-weight: bold;
+    background: rgb(101, 90, 255);
+    color: rgb(255, 224, 167);
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    width: 120px;
+    margin-left: 20px;
+    transition: .5s;
+}
+.cc-hik-order-btn:hover{
+    background-color: rgb(45, 30, 255);
+}
+
 
 /* @media screen and (min-width:1359px) {
     .hikvision-detail-dev-main{
