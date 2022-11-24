@@ -6,7 +6,7 @@ const IntelBuyNow = () => {
     const { intelId } = useParams([]);
     const [intel, setIntel] = useState({});
     useEffect(() => {
-        const url = `http://localhost:5000/intels/${intelId}`;
+        const url = `https://pacific-temple-58154.herokuapp.com/intels/${intelId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setIntel(data));

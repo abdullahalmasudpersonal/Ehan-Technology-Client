@@ -4,7 +4,7 @@ const useSpeakerDigitalX = () =>{
     const [speakerDigitalXs, setSpeakerDigitalXs] = useState([]);
  
     useEffect( () => {
-        fetch('http://localhost:5000/speakerDigitalXs')
+        fetch('https://pacific-temple-58154.herokuapp.com/speakerDigitalXs')
         .then(res => res.json())
         .then(data => setSpeakerDigitalXs(data));
     },[]);

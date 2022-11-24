@@ -4,7 +4,7 @@ const useSSDHP = ()=>{
     const [ssdhps, setSsdhps] = useState([]);
 
     useEffect( () =>{
-        fetch('http://localhost:5000/ssd-hps')
+        fetch('https://pacific-temple-58154.herokuapp.com/ssd-hps')
         .then(res => res.json())
         .then(data => setSsdhps(data));
     },[]);

@@ -5,7 +5,7 @@ const MicropackBuyNow = () => {
     const { micropackId } = useParams();
     const [micropack, setMicropack] = useState({});
     useEffect(() => {
-        const url = `http://localhost:5000/micropacks/${micropackId}`;
+        const url = `https://pacific-temple-58154.herokuapp.com/micropacks/${micropackId}`;
         console.log(url);
         fetch(url)
             .then(res => res.json())

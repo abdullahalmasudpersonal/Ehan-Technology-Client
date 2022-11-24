@@ -6,7 +6,7 @@ const HPsBuyNow = () => {
     const { printerHpId } = useParams();
     const [printerhp, setPrinterhp] = useState({});
     useEffect(() => {
-        const url = `http://localhost:5000/printer-hps/${printerHpId}`;
+        const url = `https://pacific-temple-58154.herokuapp.com/printer-hps/${printerHpId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setPrinterhp(data));

@@ -4,7 +4,7 @@ const useMicropack = () => {
     const [micropacks, setMicropacks] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/micropacks')
+        fetch('https://pacific-temple-58154.herokuapp.com/micropacks')
         .then(res => res.json())
         .then(data => setMicropacks(data));
     }, []);

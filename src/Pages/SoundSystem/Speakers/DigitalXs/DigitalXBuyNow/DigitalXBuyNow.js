@@ -6,7 +6,7 @@ const DigitalXBuyNow = () => {
     const {speakerDigitalXId} = useParams();
     const [speakerDigitalX, setSpeakerDigitalX] = useState({});
     useEffect(() =>{
-        const url = `http://localhost:5000/speakerDigitalXs/${speakerDigitalXId}`;
+        const url = `https://pacific-temple-58154.herokuapp.com/speakerDigitalXs/${speakerDigitalXId}`;
         fetch(url)
         .then(res => res.json())
         .then(data => setSpeakerDigitalX(data));

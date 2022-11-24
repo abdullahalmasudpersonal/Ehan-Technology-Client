@@ -4,7 +4,7 @@ const useAMD = () =>{
     const [amds, setAmds] = useState([]);
 
     useEffect( () =>{
-        fetch('http://localhost:5000/amds')
+        fetch('https://pacific-temple-58154.herokuapp.com/amds')
         .then(res => res.json())
         .then(data => setAmds(data))
     },[]);

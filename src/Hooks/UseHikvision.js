@@ -4,7 +4,7 @@ const useHikvision = () =>{
     const [hikvisions, setHikvisions] = useState([]);
 
     useEffect( () =>{
-        fetch('http://localhost:5000/hikvisions')
+        fetch('https://pacific-temple-58154.herokuapp.com/hikvisions')
         .then(res => res.json())
         .then(data => setHikvisions(data));
     },[]);

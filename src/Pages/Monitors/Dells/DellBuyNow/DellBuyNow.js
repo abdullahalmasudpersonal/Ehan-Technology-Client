@@ -6,7 +6,7 @@ const DellBuyNow = () => {
     const {dellId} = useParams();
     const [dell, setDell] = useState({});
     useEffect( ()=>{
-        const url =`http://localhost:5000/monitor-dells/${dellId}`;
+        const url =`https://pacific-temple-58154.herokuapp.com/monitor-dells/${dellId}`;
         fetch(url)
         .then(res => res.json())
         .then(data => setDell(data));

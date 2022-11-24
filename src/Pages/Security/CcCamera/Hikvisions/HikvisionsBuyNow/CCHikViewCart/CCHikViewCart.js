@@ -7,7 +7,7 @@ const CCHikViewCart = () => {
     const { hikvisionId } = useParams();
     const [hikvision, setHikvision] = useState({});
     useEffect(() => {
-        const url = `http://localhost:5000/hikvisions/${hikvisionId}`;
+        const url = `https://pacific-temple-58154.herokuapp.com/hikvisions/${hikvisionId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setHikvision(data));

@@ -6,7 +6,7 @@ const AdataBuyNow = () => {
     const {ramAdataId} = useParams();
     const [ramAdata, setRamAdata] = useState({});
     useEffect(() =>{
-        const url =`http://localhost:5000/ram-adatas/${ramAdataId}`;
+        const url =`https://pacific-temple-58154.herokuapp.com/ram-adatas/${ramAdataId}`;
         fetch(url)
         .then(res => res.json())
         .then(data => setRamAdata(data));

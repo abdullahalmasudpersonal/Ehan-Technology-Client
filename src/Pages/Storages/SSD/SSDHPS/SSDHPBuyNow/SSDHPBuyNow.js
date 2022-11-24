@@ -6,7 +6,7 @@ const SSDHPBuyNow = () => {
     const { ssdhpId } = useParams();
     const [ssdhp, setsssdhp] = useState({});
     useEffect(() => {
-        const url = `http://localhost:5000/ssd-hps/${ssdhpId}`;
+        const url = `https://pacific-temple-58154.herokuapp.com/ssd-hps/${ssdhpId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setsssdhp(data));

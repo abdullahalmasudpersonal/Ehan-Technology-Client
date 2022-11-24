@@ -4,7 +4,7 @@ const useIntel = () => {
     const [intels, setIntels] = useState([]);
 
     useEffect( () => {
-        fetch('http://localhost:5000/intels')
+        fetch('https://pacific-temple-58154.herokuapp.com/intels')
         .then(res => res.json())
         .then(data => setIntels(data))
     },[]);

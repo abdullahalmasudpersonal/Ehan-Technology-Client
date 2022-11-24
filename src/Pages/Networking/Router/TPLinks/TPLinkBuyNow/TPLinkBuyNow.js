@@ -6,7 +6,7 @@ const TPLinkBuyNow = () => {
     const {tplinkId} = useParams();
     const [tpLink, setTpLink] = useState({});
     useEffect( () =>{
-        const url = `http://localhost:5000/tplinks/${tplinkId}`;
+        const url = `https://pacific-temple-58154.herokuapp.com/tplinks/${tplinkId}`;
         fetch(url)
         .then(res => res.json())
         .then(data => setTpLink(data));

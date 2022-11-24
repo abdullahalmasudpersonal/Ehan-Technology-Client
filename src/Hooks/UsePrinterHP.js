@@ -4,7 +4,7 @@ const usePrinterHP = () =>{
     const [printerHPs, setPrinterHPs] = useState([]);
 
     useEffect( ()=>{
-        fetch('http://localhost:5000/printer-hps')
+        fetch('https://pacific-temple-58154.herokuapp.com/printer-hps')
         .then(res => res.json())
         .then(data => setPrinterHPs(data));
     },[]);

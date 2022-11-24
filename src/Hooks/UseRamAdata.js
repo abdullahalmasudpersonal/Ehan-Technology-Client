@@ -4,7 +4,7 @@ const useRamAdata = () => {
      const [ramAdatas, setRamAdatas] = useState([]);
 
      useEffect( ()=>{
-         fetch('http://localhost:5000/ram-adatas')
+         fetch('https://pacific-temple-58154.herokuapp.com/ram-adatas')
          .then(res => res.json())
          .then(data => setRamAdatas(data));
      },[]);

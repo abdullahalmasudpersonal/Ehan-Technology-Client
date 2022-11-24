@@ -7,7 +7,7 @@ const TPLinks = () => {
     const [tpLinks, setTPLinks] = useTpLink([]);
     /* const [tpLinks, setTPLinks] = useState([]);
     useEffect( () => {
-        fetch('http://localhost:5000/tplinks')
+        fetch('https://pacific-temple-58154.herokuapp.com/tplinks')
         .then(res => res.json())
         .then(data => setTPLinks(data));
     },[]); */

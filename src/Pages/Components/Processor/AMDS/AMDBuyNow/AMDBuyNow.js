@@ -6,7 +6,7 @@ const AMDBuyNow = () => {
     const { amdId } = useParams();
     const [amd, setAmd] = useState({});
     useEffect(() => {
-        const url = `http://localhost:5000/amds/${amdId}`;
+        const url = `https://pacific-temple-58154.herokuapp.com/amds/${amdId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setAmd(data));
