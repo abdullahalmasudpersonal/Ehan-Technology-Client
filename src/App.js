@@ -45,6 +45,7 @@ import Speaker from './Pages/SoundSystem/Speakers/Speaker/Speaker';
 import Printers from './Pages/OfficeEquipments/Printers/Printers/Printers';
 import Register from './Pages/Shared/Accounts/Register/Register';
 import Dashboard from './Pages/Dashboard/Dashboard';
+import CCHikViewCart from './Pages/Security/CcCamera/Hikvisions/HikvisionsBuyNow/CCHikViewCart/CCHikViewCart';
 
 
 
@@ -99,6 +100,7 @@ function App() {
         <Route path='/security-cc-camera' element={<CcCamera />} />
         <Route path='/hikvisions' element={<Hikvisions />} />
         <Route path='/hikvisions/:hikvisionId' element={<HikvisionsBuyNow />} />
+        <Route path='/checkout/:hikvisionId' element={<CCHikViewCart />} />
         {/* --------------- end Security --------------- */}
         {/* --------------- Start Storage --------------- */}
         <Route path='/storage' element={<Storages />} />

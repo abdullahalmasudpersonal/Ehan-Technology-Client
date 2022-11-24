@@ -1,8 +1,21 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import './HikvisionsBuyNow.css';
-
 const HikvisionsBuyNow = () => {
+
+    const [quantity, setQuantity] = useState(1);
+    console.log(quantity)
+    const handleDecrement = () => {
+        if (quantity > 1) {
+            setQuantity(prevCount => prevCount - 1);
+        }
+    }
+    const handleIncrement = () => {
+        if (quantity < 10) {
+            setQuantity(prevCount => prevCount + 1);
+        }
+    }
+
     const { hikvisionId } = useParams();
     const [hikvision, setHikvision] = useState({});
     useEffect(() => {
@@ -38,14 +51,20 @@ const HikvisionsBuyNow = () => {
                         <small><li>{hikvision.facilities4}</li></small>
                     </ul>
                     <p style={{ color: 'rgb(33, 73, 1)' }} className='fw-bold'>Available Product: {hikvision.available} Pisces</p>
-
-                    <button class="cc-hik-minus-button"><i class="fas fa-minus"></i></button>
-
-                    <input id='case-number'   defaultValue='1' className='from-control cc-hik-input-button text-center ' min='1' />
-
-                    <button id='case-plus' class="cc-hik-place-button"><i class="fas fa-plus"></i></button>
-
-                    <button className='cc-hik-order-btn'>Order NOw</button>
+                    <div className='row'>
+                        <div className='col-md-3 mt-3'>
+                            <div className='input-group'>
+                                <button onClick={handleDecrement} type='button' className='input-group-text'>-</button>
+                                <div className='form-control text-center'>{quantity}</div>
+                                <button onClick={handleIncrement} type='button' className='input-group-text'>+</button>
+                            </div>
+                        </div>
+                        <div className='col-md-3 mt-3'>
+                            <Link to={`/checkout/${hikvisionId}`}>
+                            <button type='text' className='btn btn-primary w-100'>Order Now</button>
+                            </Link>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
